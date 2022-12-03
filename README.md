@@ -4,5 +4,4 @@
 <td>Hello<td>
 <td>Mates<td>
 <td>How are you<td>
-</table>
 <html>
