@@ -11,6 +11,4 @@
 <td>Nashib <td>
 <td>Thapa<td>
 <td>Magar</td>
-</tr>
-</table>
 <html>
