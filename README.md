@@ -1,4 +1,4 @@
-2<html>
+<html>
 <center>
 <head>
 <h1>Welcome!!!</h1>
