@@ -5,7 +5,7 @@
 
   </head>
     <center>
-<p9>iGandaki University BIT Project-1 2nd-Semester</p9>
+<p9>Gandaki University BIT Project-1 2nd-Semester</p9>
 <br>
 <p0>BIT Learning Website</p0><br>
 
