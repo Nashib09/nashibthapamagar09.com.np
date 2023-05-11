@@ -1,7 +1,6 @@
 <html>
 <title>Website</title>
-<link rel="stylesheet"type="text/css" 
-href="styles09.css">
+<link rel="stylesheet"type="text/css" href="styles09.css">
 <center>
 <p9>Gandaki University BIT Project-1 2nd-Semester</p9>
 <br>
