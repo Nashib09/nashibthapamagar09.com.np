@@ -7,7 +7,7 @@
     <center>
 <p0>Learning Website</p0><br>
 
-<p7Online Notes And Questions Paper</p7>
+<p7>Online Notes And Questions Paper</p7>
 <hr>
 <marquee>
 <p1>2022-1st Semster Fall Questions Paper is published.
