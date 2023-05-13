@@ -25,7 +25,7 @@
 </div>
 </section>
 </body>
-<p2>Welcome to Bachelor in Information Technology (BIT) Learning website. <br>Due to the Natural Disasters and Influences the online class, notes and Questions Paper are available. </p2> 
+<p2>Welcome to Bachelor in Information Technology (BIT) Learning website.</p2> 
 </html>
 
 
