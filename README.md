@@ -19,7 +19,7 @@
 <section>
 <div>
 <ol>
-<li><strong>Councelors</strong></li>
+<li><strong>Create Account</strong></li>
 <li><strong>Contact Us</strong></li>
 </ol>
 </div>
