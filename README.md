@@ -10,7 +10,7 @@
 <p7>Online Notes And Questions Paper</p7>
 <hr>
 <marquee>
-<p1>2022-1st Semster Fall Questions Paper is published.
+<p1> Welcome 
 </p1>
 </marquee>
 </center>
