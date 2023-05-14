@@ -62,8 +62,9 @@ margin-right:;
 <marquee><p><i>
 Art of imparting knowledge, skill and judgment.</i></p>
 </marquee>
-</center>
-  </div9>
+  </center>
+</div9>
+ </body>
 <hr>
 <div99>
 <p2><b>Introduction</b><br>
@@ -84,20 +85,16 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <input type="button" value= "Second Semester BIT(GU)"></a>
 </div11>
 <div10>
-<body>
 <p8><b>Questions Paper</b></p8>
 <br><p>BIT(GU): </p>
 <a href="2022FSQp.html" target="target">
 <input type="button" value="First Semester"></a><br>
 <a href="SSqp.html" target="target">
 <input type="button" value="Second Semester"></a><br>
-</body>
 </div10>
 <br>
 <br>
 <p99><strong>Contact Us: Manish Tripathi, Nashib Thapa Magar, Sachin Baral</strong></p99>
-
-</body>
 </html>
 
 
