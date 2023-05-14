@@ -57,7 +57,7 @@ margin-right:;
  <div9>
 <center>
 <p>
-<p0>Learning Website</p0><br>
+<p0>eLearning Website</p0><br>
 <p7>Online Notes And Questions Paper</p7>
 <marquee><p><i>
 Art of imparting knowledge, skill and judgment.</i></p>
