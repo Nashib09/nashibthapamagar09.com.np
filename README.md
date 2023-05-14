@@ -82,7 +82,7 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <input type="button" value= "First Semester BIT(GU)"></button></p11>
 <br>
 <p12><a href="Ssemester.html" target="blank">
-<input type="button" value= "Second Semester BIT(GU)"></button></a></p/12>
+<input type="button" value= "Second Semester BIT(GU)"></button></a></p12>
 </div11>
 <div10>
 <body>
