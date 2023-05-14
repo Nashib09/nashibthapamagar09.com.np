@@ -93,7 +93,8 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 </body>
 </div10>
 <br>
-<br><center>
+<br>
+<center>
 <p99><strong>Contact Us: Manish Tripathi, Nashib Thapa Magar, Sachin Baral</strong></p99>
 </center>
 </body>
