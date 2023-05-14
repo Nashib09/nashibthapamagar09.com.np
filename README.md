@@ -77,11 +77,11 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <div11>
 <p10><b>Notes</b></p10>
 <br>
-<p11><li1><a href="FF.html" target="blank">
-<input type="button" value= "First Semester BIT(GU)"></a></p11>
+<li1><a href="FF.html" target="blank">
+<input type="button" value= "First Semester BIT(GU)"></a>
 <br>
-<p12><a href="Ssemester.html" target="blank">
-<input type="button" value= "Second Semester BIT(GU)"></a></p12>
+<a href="Ssemester.html" target="blank">
+<input type="button" value= "Second Semester BIT(GU)"></a>
 </div11>
 <div10>
 <body>
