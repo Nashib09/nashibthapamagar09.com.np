@@ -53,18 +53,11 @@ margin-right:;
 <title>Website></title>
 </style>
 </head>
-<body>
- <div9>
-<center>
-<p>
-<p0>eLearning Website</p0><br>
-<p7>Online Notes And Questions Paper</p7>
-<marquee><p><i>
-Art of imparting knowledge, skill and judgment.</i></p>
+ <p0><center>earning Website</center></p0><br>
+<p7><center>Online Notes And Questions Paper<center></p7>
+<marquee><p><center><i>
+ Art of imparting knowledge, skill and judgment.</i></center></p>
 </marquee>
-  </center>
-</div9>
- </body>
 <hr>
 <div99>
 <p2><b>Introduction</b><br>
