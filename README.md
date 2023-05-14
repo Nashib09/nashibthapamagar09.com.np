@@ -54,7 +54,7 @@ margin-right:;
 </style>
 </head>
  <p0><center>Learning Website</center></p0><br>
-Online Notes And Questions Paper<center>
+<center>Online Notes And Questions Paper</center>
 <marquee><p><i>
  Art of imparting knowledge, skill and judgment.</i></center></p>
 </marquee>
