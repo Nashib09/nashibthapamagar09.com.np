@@ -53,9 +53,9 @@ margin-right:;
 <title>Website></title>
 </style>
 </head>
- <p0><center>earning Website</center></p0><br>
-<p7><center>Online Notes And Questions Paper<center></p7>
-<marquee><p><center><i>
+ <p0><center>Learning Website</center></p0><br>
+Online Notes And Questions Paper<center>
+<marquee><p><i>
  Art of imparting knowledge, skill and judgment.</i></center></p>
 </marquee>
 <hr>
@@ -87,7 +87,6 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <br>
 <br>
 <p99><strong>Contact Us: Manish Tripathi, Nashib Thapa Magar, Sachin Baral</strong></p99>
-</html>
 
 
 
