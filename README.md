@@ -54,12 +54,11 @@ margin-right:;
 </style>
 </head>
 <body>
-  </div9>
+  <div9>
 <center>
 <p>
 <p0>Learning Website</p0><br>
 <p7>Online Notes And Questions Paper</p7>
-</div9>
 <marquee><p><i>
 Art of imparting knowledge, skill and judgment.</i></p>
 </marquee>
@@ -75,11 +74,10 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <input type="button" value="Create Account"></a></li1>
 <br>
 <div11>
-<br>
 <p10><b>Notes</b></p10>
 <br>
 <p11><li1><a href="FF.html" target="blank">
-<input type="button" value= "First Semester BIT(GU)"></button></p11>
+<input type="button" value= "First Semester BIT(GU)"></a></p11>
 <br>
 <p12><a href="Ssemester.html" target="blank">
 <input type="button" value= "Second Semester BIT(GU)"></button></a></p12>
