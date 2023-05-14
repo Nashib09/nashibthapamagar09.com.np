@@ -75,7 +75,7 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <li1><a href="FF.html" target="blank">
 <input type="button" value= "First Semester BIT(GU)"></a>
 <br>
-<a href="Ssemester.html" target="blank">
+<a href="SSemester.html" target="blank">
 <input type="button" value= "Second Semester BIT(GU)"></a><br>
 <div10>
 <p8><b>Questions Paper</b></p8>
