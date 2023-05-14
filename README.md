@@ -75,15 +75,14 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <li1><a href="signup9.html" target="target">
 <input type="button" value="Create Account"></a></li1>
 <br>
-<div11>
+
 <p10><b>Notes</b></p10>
 <br>
 <li1><a href="FF.html" target="blank">
 <input type="button" value= "First Semester BIT(GU)"></a>
 <br>
 <a href="Ssemester.html" target="blank">
-<input type="button" value= "Second Semester BIT(GU)"></a>
-</div11>
+<input type="button" value= "Second Semester BIT(GU)"></a><br>
 <div10>
 <p8><b>Questions Paper</b></p8>
 <br><p>BIT(GU): </p>
