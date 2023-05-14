@@ -54,7 +54,7 @@ margin-right:;
 </style>
 </head>
 <body>
-  <div9>
+ <div9>
 <center>
 <p>
 <p0>Learning Website</p0><br>
@@ -63,8 +63,9 @@ margin-right:;
 Art of imparting knowledge, skill and judgment.</i></p>
 </marquee>
 </center>
-</div9>
-<hr><div99>
+  </div9>
+<hr>
+<div99>
 <p2><b>Introduction</b><br>
 Welcome to Learning website. Notes and Questions Paper are available. Students print the downloaded files and use the hard copy for the study. Inquiry for the important and needed study materials through messaging. The requested message is actively     response in short time. The Online Notes And Questions Paper website is an efficient and user-friendly websites that provides a online study materials which helps by flexibility and personalized education. <hr>
 </p2> 
@@ -80,7 +81,7 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 <input type="button" value= "First Semester BIT(GU)"></a></p11>
 <br>
 <p12><a href="Ssemester.html" target="blank">
-<input type="button" value= "Second Semester BIT(GU)"></button></a></p12>
+<input type="button" value= "Second Semester BIT(GU)"></a></p12>
 </div11>
 <div10>
 <body>
@@ -94,9 +95,8 @@ Welcome to Learning website. Notes and Questions Paper are available. Students p
 </div10>
 <br>
 <br>
-<center>
 <p99><strong>Contact Us: Manish Tripathi, Nashib Thapa Magar, Sachin Baral</strong></p99>
-</center>
+
 </body>
 </html>
 
