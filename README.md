@@ -28,7 +28,6 @@ text-align:center;
 }
 p2
 {
-background-color:purple;
 color:white;
 text-align:center;
 }
