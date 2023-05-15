@@ -28,7 +28,7 @@ text-align:center;
 }
 p2
 {
-color:white;
+color:black;
 text-align:center;
 }
 ul{
