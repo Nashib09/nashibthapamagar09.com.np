@@ -2,7 +2,7 @@
   <head>
     <style>
       div{
-        font-size:10px;
+        font-size:50px;
         }
       p{ 
         color:red;
@@ -32,7 +32,7 @@
         color:purple;
         }
       p9{
-        color:white;
+        color:red;
         }
     </style>
   </head>
@@ -41,12 +41,17 @@
 <div>
   
 <p>H</p>
+<br>
 <p1>A</p1>
+<br>
 <p2>P</p2>
+<br>
 <p3>P</p3>
+<br>
 <p4>Y</p4>
 <br>
-<br
+<br>
+<br>
   <br>
   <br>
   
@@ -56,6 +61,5 @@
 <p8>A</p8>
 <p9>R</p9>
 </p>
-</p>
-<div>
+</div>
 </html>
