@@ -50,16 +50,10 @@
 <br>
 <p4>Y</p4>
 <br>
-<br>
-<br>
-  <br>
-  <br>
-  
 <p5>T</p5>
 <p6>I</p6>
 <p7>H</p7>
 <p8>A</p8>
 <p9>R</p9>
-</p>
 </div>
 </html>
