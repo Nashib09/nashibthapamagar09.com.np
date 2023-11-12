@@ -1,10 +1,61 @@
 <html>
   <head>
     <style>
+      div{
+        font-size:10px;
+        }
       p{ 
         color:red;
         }
+      p1
+      {color:yellow;
+       }
+      p2{
+        color:blue;
+        }
+      p3{
+        color:green;
+        }
+      p4{
+        color:silver;
+        }
+      p5{
+        color:black;
+        }
+      p6{
+        color:brown;
+        }
+      p7{
+        color:marron;
+        }
+      p8{
+        color:purple;
+        }
+      p9{
+        color:white;
+        }
     </style>
+  </head>
+  
 <h1>Welcome</h1>
-<p>Happy Tihar</p>
+<div>
+  
+<p>H</p>
+<p1>A</p1>
+<p2>P</p2>
+<p3>P</p3>
+<p4>Y</p4>
+<br>
+<br
+  <br>
+  <br>
+  
+<p5>T</p5>
+<p6>I</p6>
+<p7>H</p7>
+<p8>A</p8>
+<p9>R</p9>
+</p>
+</p>
+<div>
 </html>
