@@ -40,15 +40,10 @@
   
 <h1>Welcome</h1>
 <div>
-  
 <p0>H</p0>
-<br>
 <p1>A</p1>
-<br>
 <p2>P</p2>
-<br>
 <p3>P</p3>
-<br>
 <p4>Y</p4>
 <br>
 <p5> T</p5>
