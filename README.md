@@ -3,9 +3,10 @@
     <style>
       div{
         font-size:50px;
+        background-color:red;
         }
       p0{ 
-        color:red;
+        color:white;
         }
       p1
       {color:yellow;
@@ -32,7 +33,7 @@
         color:purple;
         }
       p9{
-        color:red;
+        color:blue;
         }
     </style>
   </head>
@@ -50,7 +51,7 @@
 <br>
 <p4>Y</p4>
 <br>
-<p5>T</p5>
+<p5> T</p5>
 <p6>I</p6>
 <p7>H</p7>
 <p8>A</p8>
