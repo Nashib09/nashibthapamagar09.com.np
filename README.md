@@ -37,8 +37,6 @@
         }
     </style>
   </head>
-  
-<h1>Welcome</h1>
 <div>
 <p0>W</p0>
 <p1>E</p1>
