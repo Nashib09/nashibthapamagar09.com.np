@@ -1,1 +1,52 @@
-nashibthapamagar09.com.np
+<html>
+  <head>
+    <style>
+      div{
+        font-size:50px;
+        background-color:red;
+        }
+      p0{ 
+        color:white;
+        }
+      p1
+      {color:yellow;
+       }
+      p2{
+        color:blue;
+        }
+      p3{
+        color:green;
+        }
+      p4{
+        color:silver;
+        }
+      p5{
+        color:black;
+        }
+      p6{
+        color:brown;
+        }
+      p7{
+        color:marron;
+        }
+      p8{
+        color:purple;
+        }
+      p9{
+        color:blue;
+        }
+    </style>
+  </head>
+<div>
+<p0>W</p0>
+<p1>E</p1>
+<p2>L</p2>
+<p3>C</p3>
+<p4>O</p4>
+<p5>M</p5>
+<p6>E</p6>
+<p7>!</p7>
+<p8>!</p8>
+<p9>!</p9>
+</div>
+</html>
