@@ -31,7 +31,7 @@ p2{
     </p1>
     <br>
     <br>
-        <img src="Nashib thapa 9842266372.jpg">
+        <img src="Nashib thapa 9842266372.JPG">
     <p>
         Here, I am for you.<br>
     Website Design and Develop- Frontend, Backend<br>
