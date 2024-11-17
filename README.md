@@ -23,7 +23,6 @@ p2{
 </style>
 
 </head>
-
 <body>
 <div class="div1">
     <p1>
