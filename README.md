@@ -38,9 +38,6 @@ p2{
     Mobile Application Develop- Android
     </p>
     </div>
-    <br>
-    <br>
-    <br>
     <div class="div2">
         <p2>
 Contact Us<br>
