@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head> 
 <style>
@@ -25,10 +24,7 @@ p1{
     Website Design and Develop- Frontend, Backend<br>
     Mobile Application Develop- Android
     </p>
-    </div>
-    <br>
-    <br>
-    <br>
+</div>
     <div class="div2">
     <p1>
 Contact Us<br>
