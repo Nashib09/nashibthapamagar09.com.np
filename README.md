@@ -1,52 +1,53 @@
 <html>
-  <head>
-    <style>
-      div{
-        font-size:50px;
-        background-color:red;
-        }
-      p0{ 
-        color:white;
-        }
-      p1
-      {color:yellow;
-       }
-      p2{
-        color:blue;
-        }
-      p3{
-        color:green;
-        }
-      p4{
-        color:silver;
-        }
-      p5{
-        color:black;
-        }
-      p6{
-        color:brown;
-        }
-      p7{
-        color:marron;
-        }
-      p8{
-        color:purple;
-        }
-      p9{
-        color:blue;
-        }
-    </style>
-  </head>
-<div>
-<p0>W</p0>
-<p1>E</p1>
-<p2>L</p2>
-<p3>C</p3>
-<p4>O</p4>
-<p5>M</p5>
-<p6>E</p6>
-<p7>!</p7>
-<p8>!</p8>
-<p9>!</p9>
-</div>
+<head> 
+<style>
+img{
+    
+    width:200px;
+    height:200px;
+}
+    body{
+        
+        background-color:blueviolet;
+    }
+p{
+    font-size:30px;
+}
+p1{
+    color:beige;
+    font-size:30px;
+}
+p2{
+    font-size: 20px;
+}
+</style>
+
+</head>
+
+<body>
+<div class="div1">
+    <p1>
+        Nashib Thapa Magar
+    </p1>
+    <br>
+    <br>
+        <img src="Nashib thapa 9842266372.jpg">
+    <p>
+        Here, I am for you.<br>
+    Website Design and Develop- Frontend, Backend<br>
+    Mobile Application Develop- Android
+    </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="div2">
+        <p2>
+Contact Us<br>
+Phone No: +9779842266372, +9779816189157<br>
+Email Id: nashibthapamagar@gmail.com
+        </p2>
+    </div>
+</body>
+
 </html>
