@@ -11,7 +11,10 @@ p1{
     font-size:40px;
     color: black;
 }
-
+sidebar:hover{
+    color:white;
+    font-size:20px;
+    }
 div.sidebar{
     background-color: rgb(95, 102, 227);
     height:40px;
@@ -51,11 +54,12 @@ p6{
 </head>
 <body>
     <div class="sidebar">
+        <b></b>
         <p2><a href="README.md">Home</a></p2>
         <p3>About</p3>
         <p4>Protofolia</p4>
         <p5>Project</p5>
-        <p6><a href="contact.html">Contact</a></p6>
+        <p6><a href="contact.html">Contact</a></p6></b>
     <br>
     <div class=mycontainer>
         <div class="div1">
