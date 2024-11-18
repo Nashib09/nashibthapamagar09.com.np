@@ -18,7 +18,7 @@ p1{
 div.sidebar{
     background-color: rgb(95, 102, 227);
     height:40px;
-    padding-top:20px;
+    padding-top:10px;
 }
 div.mycontainer{
     width:100%;
