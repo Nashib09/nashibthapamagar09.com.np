@@ -59,10 +59,10 @@ p6{
 </style>
 </head>
 <body>
-        <p2><a href="home.html">Home</a></p2>
-        <p3>About</p3>
-        <p4>Protofolia</p4>
-        <p5>Project</p5>
+        <p2><a href="">Home</a></p2>
+        <p3><a href="">About</a></p3>
+        <p4><a href="">Protofolia</a></p4>
+        <p5><a href="">Project</a></p5>
         <p6><a href="contact.html">Contact</a></p6>
     <br>
         <div class="div2">
