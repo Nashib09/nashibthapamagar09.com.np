@@ -27,7 +27,8 @@ div.mycontainer{
     }
 }
 .div2{
-    margin-top;200px;
+    margin-top:200px;
+    margin-left:20px;
 }
 p2{
     margin-left: 500px;
