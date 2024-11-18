@@ -6,7 +6,7 @@ img{
     height:200px;
 }
     body{ 
-        background-color:blueviolet;
+        background-color:;
     }
 p{
     font-size:30px;
@@ -15,7 +15,7 @@ p1{
     font-size: 20px;
 }
 body{
-  background-image: url("DSC04625.JPG");
+  background-image: "DSC04625.JPG";
 }
 </style>
 </head>
