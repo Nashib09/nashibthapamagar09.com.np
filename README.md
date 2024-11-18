@@ -55,7 +55,6 @@ p6{
         <p4>Protofolia</p4>
         <p5>Project</p5>
         <p6><a href="contact.html">Contact</a></p6>
-    </div>
     <br>
     <div class=mycontainer>
         <div class="div1">
@@ -72,5 +71,3 @@ p6{
     </i></p1>
     </div>
 </div>
-</body>
-</html>
