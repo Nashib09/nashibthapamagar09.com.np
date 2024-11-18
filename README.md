@@ -1,6 +1,4 @@
 <html>
-    
-    width:300px;
 <head> 
 <style>
 img{
@@ -26,9 +24,7 @@ div.mycontainer{
   div.mycontainer div{
     width:27%;  
     float:left;
-
     }
-
 }
 .div2{
     margin-top;300px;
