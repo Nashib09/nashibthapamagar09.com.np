@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
+    
+    width:300px;
 <head> 
 <style>
 img{
-    
-    width:300px;
     height:400px;
 }
 body{
