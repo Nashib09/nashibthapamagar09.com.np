@@ -30,7 +30,7 @@ div.mycontainer{
     margin-top;200px;
 }
 p2{
-    margin-left: 800px;
+    margin-left: 400px;
     margin-top: 10px;
 }
 p3
