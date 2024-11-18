@@ -36,15 +36,6 @@ div.sidebar{
     height:40px;
     padding-top:10px;
 }
-div.mycontainer{
-    width:100%;
-    overflow:auto;
-  }
-  div.mycontainer div{
-    width:30%;  
-    float:left;
-    }
-}
 .div2{
     margin-top:200px;
     margin-left:40px;
@@ -78,10 +69,7 @@ p6{
         <p6><a href="contact.html">Contact</a></p6>
     <br>
     <div class=mycontainer>
-        <div class="div1">
-            <img src="photo1.jpg">
-            </div>
-<div class="div2">
+        <div class="div2">
 
 <br>
 <br>
@@ -91,4 +79,7 @@ p6{
     Mobile Application Developer<br></b>
     </i></p1>
     </div>
+        <div class="div1">
+            <img src="photo1.jpg">
+            </div>
 </div>
