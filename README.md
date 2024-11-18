@@ -2,16 +2,37 @@
 <html>
 <head> 
 <style>
-    p7{
-        font-size: 40px;
-    }
-    body{
-            background-color:rgb(124, 86, 205);
-    }
+img{
+    
+    width:300px;
+    height:400px;
+}
+body{
+    background-color:rgb(124, 86, 205);
+}
+p1{
+    font-size:40px;
+    color: black;
+}
+
 div.sidebar{
     background-color: rgb(95, 102, 227);
     height:40px;
     padding-top:20px;
+}
+div.mycontainer{
+    width:100%;
+    overflow:auto;
+  }
+  div.mycontainer div{
+    width:27%;  
+    float:left;
+
+    }
+
+}
+.div2{
+    margin-top;300px;
 }
 p2{
     margin-left: 800px;
@@ -34,22 +55,29 @@ p6{
 </head>
 <body>
     <div class="sidebar">
-        <b>
-        <p2><a href="nashib.html">Home</a></p2>
+        <p2>Home</p2>
         <p3>About</p3>
         <p4>Protofolia</p4>
         <p5>Project</p5>
-        <p6><a href="contact.html">Contact</a></p6></b>
+        <p6><a href="contact.html">Contact</a></p6>
     </div>
     <br>
     <br>
     <br>
-    <div class="div1">
-    <p7><b>
-        Contact <br>
-        Phone No: +9779842266372, +9779816189157<br>
-        Email Id: nashibthapamagar@gmail.com</b>
-        </p7>
+    <div class=mycontainer>
+        <div class="div1">
+            <img src="photo1.jpg">
+            </div>
+<div class="div2">
+
+<br>
+<br>
+<p1><i><b>
+        Hey, I am <br>
+    Website Developer and <br>
+    Mobile Application Developer<br></b>
+    </i></p1>
+    </div>
 </div>
 </body>
 </html>
