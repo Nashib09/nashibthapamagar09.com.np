@@ -45,16 +45,16 @@ p2{
 }
 p3
 {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 p4{
-    margin-left:30px;
+    margin-left:20px;
 }
 p5{
-    margin-left:30px;
+    margin-left:20px;
 }
 p6{
-    margin-left:30px;
+    margin-left:20px;
 }
 </style>
 </head>
