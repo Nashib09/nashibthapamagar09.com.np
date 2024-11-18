@@ -50,14 +50,12 @@ p6{
 </head>
 <body>
     <div class="sidebar">
-        <p2>Home</p2>
+        <p2><a href="README.md">Home</p2>
         <p3>About</p3>
         <p4>Protofolia</p4>
         <p5>Project</p5>
         <p6><a href="contact.html">Contact</a></p6>
     </div>
-    <br>
-    <br>
     <br>
     <div class=mycontainer>
         <div class="div1">
