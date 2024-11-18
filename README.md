@@ -46,20 +46,20 @@ p2{
 }
 p3
 {
-    margin-left: 20px;
+    margin-left: 15px;
     color:black;
 }
 p4{
-    margin-left:20px;
+    margin-left:15px;
      color:black;
 }
 p5{
-    margin-left:20px;
+    margin-left:15px;
      color:black;
 }
 p6{
-    margin-left:20px;
-     color:black;
+    margin-left:15px;
+    color:black;
 }
 </style>
 </head>
