@@ -8,7 +8,7 @@ body{
     background-color:rgb(124, 86, 205);
 }
 p1{
-    font-size:40px;
+    font-size:30px;
     color: black;
 }
 p2:hover{
@@ -16,7 +16,7 @@ p2:hover{
     font-size:20px;
     }
     p3:hover{
-    backkground-color:white;
+    background-color:white;
     font-size:20px;
     }
     p4:hover{
@@ -36,11 +36,11 @@ div.sidebar{
     height:40px;
 }
 .div2{
-    margin-top:200px;
-    margin-left:40px;
+    margin-top:0px;
+    margin-left:0px;
 }
 p2{
-    margin-left: 200px;
+    margin-left: 0px;
     margin-top: 5px;
 }
 p3
@@ -75,4 +75,3 @@ p6{
         <div class="div1">
             <img src="photo1.jpg">
             </div>
-</div>
