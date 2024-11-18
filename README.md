@@ -11,7 +11,23 @@ p1{
     font-size:40px;
     color: black;
 }
-.sidebar:hover{
+p2:hover{
+    color:white;
+    font-size:20px;
+    }
+    p3:hover{
+    color:white;
+    font-size:20px;
+    }
+    p4:hover{
+    color:white;
+    font-size:20px;
+    }
+    p5:hover{
+    color:white;
+    font-size:20px;
+    }
+    p6:hover{
     color:white;
     font-size:20px;
     }
