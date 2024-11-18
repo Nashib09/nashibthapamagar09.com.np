@@ -22,7 +22,7 @@ div.mycontainer{
     overflow:auto;
   }
   div.mycontainer div{
-    width:27%;  
+    width:30%;  
     float:left;
     }
 }
@@ -50,7 +50,7 @@ p6{
 </head>
 <body>
     <div class="sidebar">
-        <p2><a href="README.md">Home</p2>
+        <p2><a href="README.md">Home</a></p2>
         <p3>About</p3>
         <p4>Protofolia</p4>
         <p5>Project</p5>
