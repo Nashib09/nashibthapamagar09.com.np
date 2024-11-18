@@ -14,6 +14,9 @@ p{
 p1{
     font-size: 20px;
 }
+body{
+  background-image: url("DSC04625.JPG");
+}
 </style>
 </head>
 <body>
