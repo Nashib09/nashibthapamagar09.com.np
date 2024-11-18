@@ -12,36 +12,35 @@ p1{
     color: black;
 }
 p2:hover{
-    color:white;
+    background-color:white;
     font-size:20px;
     }
     p3:hover{
-    color:white;
+    backkground-color:white;
     font-size:20px;
     }
     p4:hover{
-    color:white;
+    background-color:white;
     font-size:20px;
     }
     p5:hover{
-    color:white;
+    background-color:white;
     font-size:20px;
     }
     p6:hover{
-    color:white;
+    background-color:white;
     font-size:20px;
     }
 div.sidebar{
     background-color: rgb(95, 102, 227);
     height:40px;
-    padding-top:10px;
 }
 .div2{
     margin-top:200px;
     margin-left:40px;
 }
 p2{
-    margin-left: 500px;
+    margin-left: 200px;
     margin-top: 5px;
 }
 p3
