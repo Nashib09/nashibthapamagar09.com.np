@@ -35,7 +35,7 @@ div.mycontainer{
 }
 p2{
     margin-left: 500px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 p3
 {
@@ -55,7 +55,7 @@ p6{
 <body>
     <div class="sidebar">
         <b></b>
-        <p2><a href="README.html">Home</a></p2>
+        <p2><a href="home.html">Home</a></p2>
         <p3>About</p3>
         <p4>Protofolia</p4>
         <p5>Project</p5>
