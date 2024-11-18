@@ -59,19 +59,13 @@ p6{
 </style>
 </head>
 <body>
-    <div class="sidebar">
-        <b></b>
         <p2><a href="home.html">Home</a></p2>
         <p3>About</p3>
         <p4>Protofolia</p4>
         <p5>Project</p5>
         <p6><a href="contact.html">Contact</a></p6>
     <br>
-    <div class=mycontainer>
         <div class="div2">
-
-<br>
-<br>
 <p1><i><b>
         Hey, I am <br>
     Website Developer and <br>
