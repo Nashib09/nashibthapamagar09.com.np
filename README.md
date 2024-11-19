@@ -5,7 +5,7 @@ img{
     height:400px;
 }
 body{
-    background-color:rgb(124, 86, 205);
+    background-color:yellow;
 }
 p1{
     font-size:30px;
