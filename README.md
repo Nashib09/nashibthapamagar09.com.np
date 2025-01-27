@@ -73,8 +73,7 @@ p6{
         <div class="div2">
 <p1><i><b>
         Hey, I am <br>
-    Website Developer and <br>
-    Mobile Application Developer<br></b>
+    Nashib Thapa Magar
     </i></p1>
     </div>
         <div class="div1">
