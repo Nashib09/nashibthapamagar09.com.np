@@ -74,8 +74,6 @@ p6{
 <p1><i><b>
         Hey, I am <br>
     Nashib Thapa Magar
-    </i></p1> 
-    </div>
         <div class="div1">
             <img src="photo1.jpg">
             </div>
