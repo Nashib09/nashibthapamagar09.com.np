@@ -75,5 +75,5 @@ p6{
         Hey, I am <br>
     Nashib Thapa Magar
         <div class="div1">
-            <img src="nt.jpg">
+            <img src="">
             </div>
