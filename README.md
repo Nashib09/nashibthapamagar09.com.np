@@ -6,7 +6,7 @@
     <style>
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
 
-body { width=100%;
+body { width=140%;
 }
 
 .container {
