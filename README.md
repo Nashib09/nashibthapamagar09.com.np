@@ -11,7 +11,6 @@ body { overflow: hidden;
 
 .container {
 margin-bottom:10px;
-    width:100%
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
@@ -20,7 +19,7 @@ margin-bottom:10px;
 
 .slide {
     height: 100vh;
-    width: 120%;
+    width: 140%;
     display: flex;
     justify-content: center;
     align-items: center;
