@@ -12,7 +12,7 @@ body { overflow: hidden;
 .container {
     width:100%
     height: 100vh;
-    overflow-y: scroll;
+    overflow-y: auto;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
     scroll-behavior: smooth;
 }
