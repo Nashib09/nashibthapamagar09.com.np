@@ -20,7 +20,7 @@ margin-bottom:10px;
 
 .slide {
     height: 100vh;
-    width: 100%;
+    width: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ margin-bottom:10px;
     z-index: 1000;
 }
 
-.nav-links { display: flex; list-style: none; margin-bottom:2px;}
+.nav-links { display: flex; list-style: none;}
 .nav-links li { margin-left: 50px;
 }
 .nav-links a {
