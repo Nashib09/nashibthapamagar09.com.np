@@ -19,7 +19,7 @@ margin-bottom:10px;
 
 .slide {
     height: 100vh;
-    width: 100%;
+    width: 130%;
     display: flex;
     justify-content: center;
     align-items: center;
