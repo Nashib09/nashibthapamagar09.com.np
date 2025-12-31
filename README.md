@@ -1,79 +1,19 @@
-<html>
-<head> 
-<style>
-img{
-    height:400px;
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <div className="logo">MyBrand</div>
+      <ul className="nav-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+    </nav>
+  );
 }
-body{
-    background-color:yellow;
-}
-p1{
-    font-size:30px;
-    color: black;
-}
-p2:hover{
-    background-color:white;
-    font-size:20px;
-    }
-    p3:hover{
-    background-color:white;
-    font-size:20px;
-    }
-    p4:hover{
-    background-color:white;
-    font-size:20px;
-    }
-    p5:hover{
-    background-color:white;
-    font-size:20px;
-    }
-    p6:hover{
-    background-color:white;
-    font-size:20px;
-    }
-div.sidebar{
-    background-color: rgb(95, 102, 227);
-    height:40px;
-}
-.div2{
-    margin-top:0px;
-    margin-left:0px;
-}
-p2{
-    margin-left: 0px;
-    margin-top: 5px;
-    color:black;
-}
-p3
-{
-    margin-left: 15px;
-    color:black;
-}
-p4{
-    margin-left:15px;
-     color:black;
-}
-p5{
-    margin-left:15px;
-     color:black;
-}
-p6{
-    margin-left:15px;
-    color:black;
-}
-</style>
-</head>
-<body>
-        <p2><a href="">Home</a></p2>
-        <p3><a href="">About</a></p3>
-        <p4><a href="portfoli.html">Portfolio</a></p4>
-        <p5><a href="">Project</a></p5>
-        <p6><a href="contact.html">Contact</a></p6>
-    <br>
-        <div class="div2">
-<p1><i><b>
-        Hey, I am <br>
-    Nashib Thapa Magar
-        <div class="div1">
-            <img src="">
-            </div>
+
+export default Navbar;
