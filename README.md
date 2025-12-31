@@ -11,7 +11,6 @@ body { overflow: hidden;
 
 .container {
 margin-bottom:10px;
-width:100%
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
