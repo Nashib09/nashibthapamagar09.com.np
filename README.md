@@ -6,7 +6,8 @@
     <style>
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
 
-body { overflow: hidden; } /* Prevents double scrollbars */
+body { width=100%;
+}
 
 .container {
     height: 100vh;
