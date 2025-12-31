@@ -28,7 +28,7 @@ body { width=140%;
 
 .navbar {
     position: fixed;
-    top: 0; width:70%;
+    top: 0; width:90%;
     display: flex; justify-content: space-between;
     padding: 20px 10%; background: rgba(255, 255, 255, 0.9);
     z-index: 1000;
