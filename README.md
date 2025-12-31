@@ -16,6 +16,20 @@ margin-bottom:10px;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
     scroll-behavior: smooth;
 }
+@media (min-width: 768px) {
+  body {
+    background-color: lightgreen;
+    font-size: 16px;
+  }
+}
+
+/* Styles for Desktops (screens wider than 1024px) */
+@media (min-width: 1024px) {
+  body {
+    background-color: white;
+    font-size: 18px;
+  }
+}
 
 .slide {
     height: 100vh;
