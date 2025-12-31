@@ -36,7 +36,9 @@ body { overflow: hidden;
 }
 
 .nav-links { display: flex; list-style: none; }
-.nav-links li { margin-left: 30px; }
+.nav-links li { margin-left: 40px;
+margin-top:10px;
+}
 .nav-links a {
     text-decoration: none; color: #333; font-weight: 600;
     transition: 0.3s; position: relative;
@@ -51,6 +53,7 @@ body { overflow: hidden;
 .nav-links a:hover { color: #007bff; }
 
 .profile-circle {
+margin-top:10px;
     width: 250px; height: 250px;
     border-radius: 50%;
     position: relative;
