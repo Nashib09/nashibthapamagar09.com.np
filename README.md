@@ -19,7 +19,7 @@ margin-bottom:10px;
 
 .slide {
     height: 100vh;
-    width: 140%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ margin-bottom:10px;
 
 .navbar {
     position: fixed;
-    top: 0; width:90%;
+    top: 0; width:80%;
     display: flex; justify-content: space-between;
     padding: 20px 10%; background: rgba(255, 255, 255, 0.9);
     z-index: 1000;
