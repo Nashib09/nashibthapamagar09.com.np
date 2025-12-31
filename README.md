@@ -10,6 +10,7 @@ body { overflow: hidden;
 }
 
 .container {
+margin-top:5px;
     width:100%
     height: 100vh;
     overflow-y: auto;
@@ -37,7 +38,6 @@ body { overflow: hidden;
 
 .nav-links { display: flex; list-style: none; }
 .nav-links li { margin-left: 40px;
-margin-top:10px;
 }
 .nav-links a {
     text-decoration: none; color: #333; font-weight: 600;
@@ -53,7 +53,6 @@ margin-top:10px;
 .nav-links a:hover { color: #007bff; }
 
 .profile-circle {
-margin-top:10px;
     width: 250px; height: 250px;
     border-radius: 50%;
     position: relative;
