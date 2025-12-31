@@ -134,7 +134,7 @@ margin-top:10px;
     <div class="content-wrapper">
         <h2>Get In Touch</h2>
         <p>Gmail: nashibthapamagar@gmail.com<br>
-        Contact No: +977 9816189157</p>
+        Contact No: +977 9816189157, +977 9842266372</p>
         <ul>
             <li><a href="#">Facebook</a></li>
             <li><a href="#">LinkedIn</a></li>
