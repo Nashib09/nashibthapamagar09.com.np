@@ -86,7 +86,7 @@ body { overflow: hidden;
 <body>
 
     <nav class="navbar">
-        <div class="logo">PORTFOLIO</div>
+        <div class="logo"><strong>PORTFOLIO<strong></div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
