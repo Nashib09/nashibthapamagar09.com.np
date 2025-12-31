@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Portfolio</title>
-    <style>/* Core Styling */
+    <style>
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
 
 body { overflow: hidden; } /* Prevents double scrollbars */
@@ -27,7 +27,6 @@ body { overflow: hidden; } /* Prevents double scrollbars */
     padding: 80px 20px;
 }
 
-/* Navbar & Hover Effects */
 .navbar {
     position: fixed;
     top: 0; width: 100%;
@@ -51,7 +50,6 @@ body { overflow: hidden; } /* Prevents double scrollbars */
 .nav-links a:hover::after { width: 100%; }
 .nav-links a:hover { color: #007bff; }
 
-/* 3D Profile Picture Highlight */
 .profile-circle {
     width: 250px; height: 250px;
     border-radius: 50%;
