@@ -10,6 +10,7 @@ body { width=140%;
 }
 
 .container {
+width:100%
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
