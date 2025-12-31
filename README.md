@@ -10,10 +10,10 @@ body { overflow: hidden;
 }
 
 .container {
-margin-bottom:5px;
+margin-bottom:10px;
     width:100%
     height: 100vh;
-    overflow-y: auto;
+    overflow-y: scroll;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
     scroll-behavior: smooth;
 }
