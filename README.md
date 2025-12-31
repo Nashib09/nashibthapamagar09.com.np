@@ -12,7 +12,7 @@ body { overflow: hidden;
 .container {
     width:100%
     height: 100vh;
-    overflow-y: auto;
+    overflow-y: scroll;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
     scroll-behavior: smooth;
 }
@@ -87,6 +87,7 @@ body { overflow: hidden;
 
     <nav class="navbar">
         <div class="logo"><b>PORTFOLIO</b></div>
+        <br>
         <ul class="nav-links">
             <li><a href="#home"><b>Home</b></a></li>
             <li><a href="#portfolio"><b>Portfolio</b></a></li>
