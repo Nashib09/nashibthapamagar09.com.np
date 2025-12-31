@@ -36,8 +36,8 @@ margin-bottom:5px;
     z-index: 1000;
 }
 
-.nav-links { display: flex; list-style: none; }
-.nav-links li { margin-left: 40px;
+.nav-links { display: flex; list-style: none; margin-bottom:2px;}
+.nav-links li { margin-left: 50px;
 }
 .nav-links a {
     text-decoration: none; color: #333; font-weight: 600;
