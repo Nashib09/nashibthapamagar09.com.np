@@ -52,7 +52,7 @@ margin-bottom:10px;
 .nav-links a:hover { color: #007bff; }
 
 .profile-circle {
-margin-top:5px;
+margin-top:10px;
     width: 250px; height: 250px;
     border-radius: 50%;
     position: relative;
