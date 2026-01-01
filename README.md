@@ -32,13 +32,17 @@ margin-bottom:10px;
     display: flex; justify-content: space-between;
     padding: 20px 10%; background: rgba(255, 255, 255, 0.9);
     z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.nav-links { display: flex; list-style: none;}
+.nav-links { display: flex; list-style: none;
+gap: 15px; /* Better spacing for touch */
+            margin-top: 10px;}
 .nav-links li { margin-left: 50px;
 }
 .nav-links a {
     text-decoration: none; color: #333; font-weight: 600;
+    font-size: 14px;
     transition: 0.3s; position: relative;
 }
 
@@ -70,6 +74,20 @@ margin-top:10px;
     width: 100%; height: 100%;
     border-radius: 50%; object-fit: cover; border: 5px solid white;
 }
+/* --- Desktop Media Query --- */
+        @media (min-width: 768px) {
+            .navbar {
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px 10%;
+            }
+            .content-wrapper {
+            max-width: 90%;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
 .slide {
     display: flex;
     flex-direction: column; /* This forces children to stack on new lines */
