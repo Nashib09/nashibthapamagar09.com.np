@@ -139,7 +139,6 @@ margin-top:10px;
                     <p>Mobile Application Developer,</p>
                     <p>Artificial Intelligence Programmer,</p>
                     <p>Full Stack Developer & Designer.</p>
-                    </div>
  <section id="portfolio" class="slide">
     <div class="content-wrapper">
         <h2>Portfolio</h2>
