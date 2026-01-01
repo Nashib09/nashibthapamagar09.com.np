@@ -17,7 +17,7 @@ margin-bottom:10px;
     scroll-behavior: smooth;
 }
 .slide {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -28,8 +28,8 @@ margin-bottom:10px;
 
 .navbar {
     position: fixed;
-    top: 0; width:80%;
-    display: flex; justify-content: space-between;
+    top: 0; width:100%;
+    display: column; justify-content: space-between;
     padding: 20px 10%; background: rgba(255, 255, 255, 0.9);
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -84,6 +84,7 @@ margin-top:10px;
             .content-wrapper {
             max-width: 90%;
             background: white;
+            word-wrap: break-word;
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
