@@ -16,57 +16,6 @@ margin-bottom:10px;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
     scroll-behavior: smooth;
 }
-@media (max-width: 600px) {
-  .your-container-class {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-@media (min-width: 768px) {
-  body {
-    background-color: lightgreen;
-    font-size: 16px;
-  }
-}
-* {
-  outline: 1px solid red !important;
-}
-/* Styles for Desktops (screens wider than 1024px) */
-@media (min-width: 1024px) {
-  body {
-    background-color: white;
-    font-size: 18px;
-  }
-}
-/* This applies to screens smaller than 768px (tablets/phones) */
-@media (max-width: 768px) {
-  .portfolio-header {
-    flex-direction: column; /* Stack items vertically instead of horizontally */
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 1.5rem; /* Make text smaller for mobile */
-  }
-  }
-  .container {
-  display: flex;
-  flex-wrap: wrap; /* This is the magic line that moves items to the next row on mobile */
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-.profile-pic {
-  max-width: 100%;
-  height: auto;
-}
-
 .slide {
     height: 100vh;
     width: 100%;
