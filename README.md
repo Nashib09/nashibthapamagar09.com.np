@@ -139,20 +139,18 @@ margin-top:10px;
                     <p>Mobile Application Developer,</p>
                     <p>Artificial Intelligence Programmer,</p>
                     <p>Full Stack Developer & Designer.</p>
-                </div>
-            </div>
-        </section>
+                    </div>
  <section id="portfolio" class="slide">
     <div class="content-wrapper">
         <h2>Portfolio</h2>
-        <p><br>Academic Qualification:</p><br>
-        <p>-Gandaki University- Bachelor of Information Technology</p>
+        <p><b>Academic Qualification:</b></p>
+        <p>Gandaki University- Bachelor of Information Technology</p>
         <p>-Kathmandu Model College - Computer Science</p>
         <p>-Bright Future Higher Secondary School-
             School Leaving Certificate</p>
         <br><p><b>Training and Skills</b></p>
-        <p>-Twelven days Node.js Online Trainig</p>
-        <p>-Fourty days AI Powered Fullstack Training</p><br>
+        <p>-Twelven days Node.js Online Trainig.</p>
+        <p>-Fourty days AI Powered Fullstack Training.</p><br>
     </div>
 </section>
          <section id="about" class="slide">
