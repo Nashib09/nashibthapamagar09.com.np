@@ -74,13 +74,22 @@ margin-top:10px;
     width: 100%; height: 100%;
     border-radius: 50%; object-fit: cover; border: 5px solid white;
 }
-/* --- Desktop Media Query --- */
+/* --- 7. Desktop Specific Overrides --- */
         @media (min-width: 768px) {
-            .navbar {
-                flex-direction: row;
-                justify-content: space-between;
-                padding: 20px 10%;
-            }
+            .navbar { padding: 0 10%; }
+            .nav-links { gap: 40px; }
+            .nav-links a { font-size: 16px; }
+            .profile-circle { width: 280px; height: 280px; }
+            h1 { font-size: 2.8rem; }
+        }
+
+        /* --- 8. Mobile Fixes --- */
+        @media (max-width: 480px) {
+            .logo { font-size: 0.9rem; }
+            .nav-links { gap: 12px; }
+            .nav-links a { font-size: 12px; }
+            .content-box { width: 100%; padding: 20px; }
+        }
             .content-wrapper {
             max-width: 90%;
             background: white;
