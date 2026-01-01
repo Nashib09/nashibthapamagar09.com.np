@@ -28,7 +28,9 @@ margin-bottom:10px;
     font-size: 16px;
   }
 }
-
+* {
+  outline: 1px solid red !important;
+}
 /* Styles for Desktops (screens wider than 1024px) */
 @media (min-width: 1024px) {
   body {
@@ -46,6 +48,23 @@ margin-bottom:10px;
   h1 {
     font-size: 1.5rem; /* Make text smaller for mobile */
   }
+  }
+  .container {
+  display: flex;
+  flex-wrap: wrap; /* This is the magic line that moves items to the next row on mobile */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.profile-pic {
+  max-width: 100%;
+  height: auto;
 }
 
 .slide {
