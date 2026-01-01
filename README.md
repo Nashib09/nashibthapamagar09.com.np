@@ -16,6 +16,12 @@ margin-bottom:10px;
     scroll-snap-type: y mandatory; /* Vertical snap-scroll */
     scroll-behavior: smooth;
 }
+@media (max-width: 600px) {
+  .your-container-class {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media (min-width: 768px) {
   body {
     background-color: lightgreen;
