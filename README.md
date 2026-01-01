@@ -36,6 +36,17 @@ margin-bottom:10px;
     font-size: 18px;
   }
 }
+/* This applies to screens smaller than 768px (tablets/phones) */
+@media (max-width: 768px) {
+  .portfolio-header {
+    flex-direction: column; /* Stack items vertically instead of horizontally */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* Make text smaller for mobile */
+  }
+}
 
 .slide {
     height: 100vh;
