@@ -143,7 +143,7 @@ margin-top:10px;
     <div class="content-wrapper">
         <h2>Portfolio</h2>
         <p><b>Academic Qualification:</b></p>
-        <p>Gandaki University- Bachelor of Information Technology</p>
+        <p>-Gandaki University- Bachelor of Information Technology</p>
         <p>-Kathmandu Model College - Computer Science</p>
         <p>-Bright Future Higher Secondary School-
             School Leaving Certificate</p>
