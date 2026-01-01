@@ -125,7 +125,6 @@ margin-top:10px;
             <li><a href="#contact"><b>Contact</b></a></li>
         </ul>
     </nav>
-
     <main class="container">
         <section id="home" class="slide">
             <div class="hero-content">
@@ -136,27 +135,26 @@ margin-top:10px;
                 </div>
                 <div class="description">
                     <h1>Hi, I'm Nashib Thapa Magar</h1>
-                    <p>Software Developer,<br>
-                    <br><p>Mobile Application Developer,</p>
-                    <br><p>Artificial Intelligence Programmer</p>
-                    <br><p>Full Stack Developer & Designer.</p>
+                    <p>Software Developer,
+                    <p>Mobile Application Developer,</p>
+                    <p>Artificial Intelligence Programmer,</p>
+                    <p>Full Stack Developer & Designer.</p>
                 </div>
             </div>
         </section>
  <section id="portfolio" class="slide">
     <div class="content-wrapper">
         <h2>Portfolio</h2>
-        <p><br>Academic Qualification</p><br>
-        <p>Gandaki University- Bachelor of Information Technology</p><br>
-        <p>Kathmandu Model College - Computer Science</p>
-        <br><p>Bright Future Higher Secondary School-
+        <p><br>Academic Qualification:</p><br>
+        <p>-Gandaki University- Bachelor of Information Technology</p>
+        <p>-Kathmandu Model College - Computer Science</p>
+        <p>-Bright Future Higher Secondary School-
             School Leaving Certificate</p>
-        <br><p><b>Training and Skills</b></p><br>
-        <p>Twelven days Node.js Online Trainig</p><br>
-        <p>Fourty days AI Powered Fullstack Training</p><br>
+        <br><p><b>Training and Skills</b></p>
+        <p>-Twelven days Node.js Online Trainig</p>
+        <p>-Fourty days AI Powered Fullstack Training</p><br>
     </div>
 </section>
-
          <section id="about" class="slide">
     <div class="content-wrapper">
         <h2>About Me</h2>
