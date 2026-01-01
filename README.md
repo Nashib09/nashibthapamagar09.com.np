@@ -167,6 +167,7 @@ margin-top:10px;
             <li><a href="https://www.facebook.com/nashib.thapamagar">Facebook</a></li>
             <li><a href="https://www.linkedin.com/in/nashib-thapa-magar-78b830375/">LinkedIn</a></li>
             <li><a href="https://www.instagram.com/nashib_somai/?next=%2F">Instagram</a></li>
+            <li><a href="https://github.com/Nashib09">GitHub</a></li>
 
         </ul>
     </div>
