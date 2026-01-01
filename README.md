@@ -29,7 +29,8 @@ margin-bottom:10px;
 .navbar {
     position: fixed;
     top: 0; width:100%;
-    display: column; justify-content: space-between;
+     flex-direction: column;
+    justify-content: space-between;
     padding: 20px 10%; background: rgba(255, 255, 255, 0.9);
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
