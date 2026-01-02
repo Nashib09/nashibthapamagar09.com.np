@@ -158,9 +158,9 @@ margin-top:10px;
         <p>-Kathmandu Model College - Computer Science</p>
         <p>-Bright Future Higher Secondary School-
             School Leaving Certificate</p>
-        <br><p><b>Training and Skills</b></p>
+        <br><p><b>Training and Skills:</b></p>
         <p>-Twelven days Node.js Online Trainig.</p>
-        <p>-Fourty days AI Powered Fullstack Training.</p><br>
+        <p>-Fourty days AI Powered Fullstack Training.</p>
         <p>-Two days eGP(Electronic Government Procurement) Training.</p>
     </div>
 </section>
