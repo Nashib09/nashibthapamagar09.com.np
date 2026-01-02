@@ -142,14 +142,7 @@ margin-top:10px;
  <section id="portfolio" class="slide">
     <div class="content-wrapper">
         <h2>Portfolio</h2>
-        <p><b>Academic Qualification:</b></p>
-        <p>-Gandaki University- Bachelor of Information Technology</p>
-        <p>-Kathmandu Model College - Computer Science</p>
-        <p>-Bright Future Higher Secondary School-
-            School Leaving Certificate</p>
-        <br><p><b>Training and Skills</b></p>
-        <p>-Twelven days Node.js Online Trainig.</p>
-        <p>-Fourty days AI Powered Fullstack Training.</p><br>
+        <p>-Technical Assistant(2020-2021)-Laafa Engineering and Construction Pvt.Ltd</p>
     </div>
 </section>
          <section id="about" class="slide">
@@ -159,7 +152,16 @@ margin-top:10px;
         <br>in building dynamic and responsive web applications.<br>
          I enjoy turning complex problems into simple, beautiful, 
         <br>and intuitive designs. When I'm not coding, you'll find 
-        <br>me exploring new technologies or working on personal projects.</p>
+        <br>me exploring new technologies or working on personal projects.</p><br>
+         <p><b>Academic Qualification:</b></p>
+        <p>-Gandaki University- Bachelor of Information Technology</p>
+        <p>-Kathmandu Model College - Computer Science</p>
+        <p>-Bright Future Higher Secondary School-
+            School Leaving Certificate</p>
+        <br><p><b>Training and Skills</b></p>
+        <p>-Twelven days Node.js Online Trainig.</p>
+        <p>-Fourty days AI Powered Fullstack Training.</p><br>
+        <p>-Two days eGP(Electronic Government Procurement) Training.</p>
     </div>
 </section>
         <section id="contact" class="slide">
