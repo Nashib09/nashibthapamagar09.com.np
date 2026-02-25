@@ -139,7 +139,7 @@ margin-top:10px;
                     <p>Mobile Application Developer,</p>
                     <p>Artificial Intelligence Programmer,</p>
                     <p>Full Stack Developer & Designer,</p>
-                    <p>System Integration, Techincal Supporter.</p>
+                    <p>System Integration, Technical Supporter.</p>
  <section id="portfolio" class="slide">
     <div class="content-wrapper">
         <h2>Portfolio</h2>
@@ -161,7 +161,7 @@ margin-top:10px;
         <p>-Twelven days Node.js Online Trainig.</p>
         <p>-Fourty days AI Powered Fullstack Training.</p>
         <p>-Two days eGP(Electronic Government Procurement) Training.</p>
-        <p>-Two months intern in Kathmandu Metropolitian City Office as System Integration Role, Techincal Supporter.</p>
+        <p>-Two months intern in Kathmandu Metropolitian City Office as System Integration Role, Technical Supporter.</p>
     </div>
 </section>
         <section id="contact" class="slide">
