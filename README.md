@@ -161,6 +161,7 @@ margin-top:10px;
         <p>-Twelven days Node.js Online Trainig.</p>
         <p>-Fourty days AI Powered Fullstack Training.</p>
         <p>-Two days eGP(Electronic Government Procurement) Training.</p>
+        <p>-Two months intern in Kathmandu Metropolitian City Office as System Integration Role, Techincal Supporter.</p>
     </div>
 </section>
         <section id="contact" class="slide">
