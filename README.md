@@ -528,9 +528,6 @@ img {
           </div>
         </div>
       </div>
-      
-    </div>
-
     <div class="text-center mt-4">
       <button id="showMore-course" class="btn btn-success">Show More</button>
     </div>
