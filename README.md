@@ -493,121 +493,30 @@ img {
 
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/accenture forage.jpg" alt="course 1" class="img-fluid h-auto">
+          <img src="" alt="course 1" class="img-fluid h-auto">
           <div class="p-4">
-            <h3 class="h5 mb-2">Software Engineering Job Simulation</h3>
+            <h3 class="h5 mb-2">Node.js MERN STACK</h3>
+            <p class="text-muted mb-4">Aug 2025</p>
+            <div class="d-flex justify-content-end">
+              <a target="_blank" href=" class="text-success ">View certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="bg-dark rounded shadow overflow-hidden">
+          <img src="" alt="course 1" class="img-fluid h-auto">
+          <div class="p-4">
+            <h3 class="h5 mb-2">AI Powered FullStack</h3>
             <p class="text-muted mb-4">Nov 2024</p>
             <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/xhih9yFWsf6AYfngd/HNpZwZcuYwona2d8Y_xhih9yFWsf6AYfngd_Cr3tp6GTqx2EjAL6P_1732534184030_completion_certificate.pdf" class="text-success ">View certificate</a>
+              <a target="_blank" href="">View certificate</a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/software engineer intern.jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Sotware Engineer Intern</h3>
-            <p class="text-muted mb-4">Nov 2024</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://www.hackerrank.com/certificates/902386b0b3f6" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
       </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/sql intermediate.jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Sql (Intermediate)</h3>
-            <p class="text-muted mb-4">Nov 2024</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://www.hackerrank.com/certificates/5de0bbffd183" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/sql basics.jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Sql (Basics)</h3>
-            <p class="text-muted mb-4">Nov 2024</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://www.hackerrank.com/certificates/dabb1e3bc32b" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (1).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Git</h3>
-            <p class="text-muted mb-4">May 2024</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://simpli-web.app.link/e/dZg3MvFHnJb" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (2).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Software Development Lifecycle</h3>
-            <p class="text-muted mb-4">March 2024</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://olympus.mygreatlearning.com/courses/104946/certificate" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (3).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">TCS iON - Young Professional</h3>
-            <p class="text-muted mb-4">May 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1F1Ke3nPOL_EnDirK3ulXOrgb0oFoqeqI/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/MongoDB Infosys.jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">MongoDB</h3>
-            <p class="text-muted mb-4">Nov 2024</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/17XfGhW1d-CcmSr-zEeuCw85rnqV9dz0b/view?usp=drive_link" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (4).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Effective Leadership</h3>
-            <p class="text-muted mb-4">Jun 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1Ep-0jDfJEmMsnqq3034IkdDhdO7Z21re/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
     <div id ="additional-courses"class="pt-4 d-none">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <!-- Additional courses cards here -->
