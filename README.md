@@ -185,18 +185,6 @@
         <a target="_blank" href="https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
       </div>
     </div>
-       <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
-      <div class="card-content text-start">
-        <h3 class="text-success mb-3">StudentManagement System</h3>
-        <p class="text-muted mb-4">A centralized website for contact management system.</p>
-        <p class="pb-3">
-          <span class="languages_used">MongoDB</span>
-          <span class="languages_used">Next.js</span>
-          <span class="languages_used">Tailwind CSS</span>
-        </p>
-        <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success">View Project</a>
-      </div>
-    </div>
   </section>
 
   <section id="certificates" class="container py-5">
@@ -241,7 +229,7 @@
       <h2 class="fs-1 fw-bold m-0 text-light">Internship</h2>
       <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
     </div>
-    <p class="text-secondary fs-5 mt-3">
+    <p class="text-light opacity-75 fs-5 mt-3">
       Virtual internship on System integration role and technical support [December 2025 - February 2026]
     </p>
   </section>
@@ -284,20 +272,13 @@
     </a>
   </div>
 
- <footer class="bg-dark py-4 text-center border-top border-secondary">
-  <div class="mb-2">
-    <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
-    <span id="visitor-counter" class="badge bg-success fs-6 px-3 py-2 fw-semibold">Loading...</span>
-  </div>
-  <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
-</footer>
-
-<script>
-  function cb(response) {
-    document.getElementById('visitor-counter').innerText = response.value;
-  }
-</script>
-<script async src="https://api.countapi.xyz/hit/nashib-portfolio-2026/visits?callback=cb"></script>
+  <footer class="bg-dark py-4 text-center border-top border-secondary">
+    <div class="mb-2">
+      <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNashib09&count_bg=%2310B981&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Visitor Counter"/>
+    </div>
+    <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
+  </footer>
 
 
   <div class="modal fade" id="certMernModal" tabindex="-1" aria-hidden="true">
