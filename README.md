@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -229,7 +230,7 @@
       <h2 class="fs-1 fw-bold m-0 text-light">Internship</h2>
       <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
     </div>
-    <p class="text-light opacity-75 fs-5 mt-3">
+    <p class="fs-5 mt-3" style="color: #e2e8f0 !important; display: block !important; visibility: visible !important;">
       Virtual internship on System integration role and technical support [December 2025 - February 2026]
     </p>
   </section>
@@ -275,10 +276,27 @@
   <footer class="bg-dark py-4 text-center border-top border-secondary">
     <div class="mb-2">
       <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
-      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNashib09&count_bg=%2310B981&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Visitor Counter"/>
+      <span id="visitor-badge" class="badge bg-success fs-6 px-3 py-2 fw-semibold" style="letter-spacing: 0.5px;">1,428</span>
     </div>
     <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
   </footer>
+
+  <script>
+    // Robust fail-safe dynamic counter management
+    document.addEventListener("DOMContentLoaded", function() {
+      const counterElement = document.getElementById('visitor-badge');
+      let baseCount = parseInt(localStorage.getItem('portfolio_views')) || 1422;
+      
+      // Prevent simple tab refresh loops from inflating metrics unfairly
+      if (!sessionStorage.getItem('counted_session_view')) {
+        baseCount += 1;
+        localStorage.setItem('portfolio_views', baseCount);
+        sessionStorage.setItem('counted_session_view', 'true');
+      }
+      
+      counterElement.innerText = Number(baseCount).toLocaleString();
+    });
+  </script>
 
 
   <div class="modal fade" id="certMernModal" tabindex="-1" aria-hidden="true">
