@@ -160,7 +160,7 @@
     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Weather APP</h3>
-        <p class="text-muted mb-3">A Dedicated site for Weather Forecasting.</p>
+        <p>A Dedicated site for Weather Forecasting.</p>
         <p class="pb-3">
           <span class="languages_used">HTML 5</span>
           <span class="languages_used">CSS 3</span>
@@ -175,7 +175,7 @@
     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Contact Management System</h3>
-        <p class="text-muted mb-4">A centralized website for contact management system.</p>
+        <p>A centralized website for contact management system.</p>
         <p class="pb-3">
           <span class="languages_used">MongoDB</span>
           <span class="languages_used">Express JS</span>
@@ -188,7 +188,7 @@
      <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Student Management System</h3>
-        <p class="text-muted mb-4">A centralized website for Student Portal.</p>
+        <p>A centralized website for Student Portal.</p>
         <p class="pb-3">
           <span class="languages_used">Mongo DB</span>
           <span class="languages_used">Next.JS</span>
