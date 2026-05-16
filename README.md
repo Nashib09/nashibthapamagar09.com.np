@@ -609,7 +609,6 @@ img {
     Call
   </a>
 </div>
-</section>
 <!-- Feedback Section -->
 <section id="feedback" class="container py-5">
   <h2 class="fs-1 fw-bold mb-4">Feedback</h2>
