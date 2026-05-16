@@ -527,13 +527,9 @@ img {
 
   <!-- Internship Section -->
   <section id="internship" class="container py-5">
-    <div class="d-flex"><h2 class="fs-1 fw-bold mb-4 col-6">Internship</h2><span class="col-6 text-end"><a target="_blank" href="https://drive.google.com/file/d/1DX0BqnRDE3koOjxxyN7R4oSei4esceIy/view?usp=drive_link">[ View Certificate ]</a></span></div>
-    <p class="text-muted">Virtual internship on Main Flow Technologies [September 2024 - November-2024]</p>
-    <div class="d-flex"><h2 class="fs-1 fw-bold mb-4 col-6">Implant Training</h2><span class="col-6 text-end">
-      <!-- target="_blank" -->
-      <a  href="https://drive.google.com/file/d/15KOtiF9vRWygwV3NBH1DVkfMOCNYdW8y/view?usp=drive_link">[ View Certificate ]</a></span></div>
-    <p class="text-muted">Completed a one-day implant training in Python programming at Odugaa Tech in 2018.</p>
-  </section>
+    <div class="d-flex"><h2 class="fs-1 fw-bold mb-4 col-6">Internship</h2><span class="col-6 text-end">
+      <img src=""  class="img-fluid h-auto" alt="course 1" style="max-width: 200px; max-height: 150px; object-fit: contain;"></span></div>
+    <p class="text-muted">Virtual internship on System integration role and technical support [December 2025 - February-2026]</p>
 
   <!-- About Section -->
   <section id="about" class="container py-5 bg-dark">
