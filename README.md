@@ -624,7 +624,6 @@ img {
     </div>
     <button type="submit" class="btn btn-success">Send Message</button>
   </form>
-</section>
 
 <!-- Social Media Links -->
 <section class="container py-4 d-flex justify-content-center">
@@ -658,7 +657,7 @@ img {
          title="Page Counter" 
          alt="Page Counter">
   </div>
-  <p class="text-muted">&copy; 2024 Portfolio. All rights reserved.</p>
+  <p class="text-muted">&copy; 2026 Portfolio. All rights reserved.</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
