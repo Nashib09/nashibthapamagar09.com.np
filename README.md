@@ -242,7 +242,7 @@
       <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
     </div>
     <p class="fs-5 mt-3" style="color: #e2e8f0 !important; display: block !important; visibility: visible !important;">
-      Virtual internship on System integration role and technical support [December 2025 - February 2026]
+      Internship on System integration role and technical support [December 2025 - February 2026]
     </p>
   </section>
 
