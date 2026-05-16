@@ -274,31 +274,8 @@
   </div>
 
   <footer class="bg-dark py-4 text-center border-top border-secondary">
-    <div class="mb-2">
-      <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
-      <span id="visitor-badge" class="badge bg-success fs-6 px-3 py-2 fw-semibold" style="letter-spacing: 0.5px;">1,428</span>
-    </div>
-    <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
+   <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
   </footer>
-
-  <script>
-    // Robust fail-safe dynamic counter management
-    document.addEventListener("DOMContentLoaded", function() {
-      const counterElement = document.getElementById('visitor-badge');
-      let baseCount = parseInt(localStorage.getItem('portfolio_views')) || 1422;
-      
-      // Prevent simple tab refresh loops from inflating metrics unfairly
-      if (!sessionStorage.getItem('counted_session_view')) {
-        baseCount += 1;
-        localStorage.setItem('portfolio_views', baseCount);
-        sessionStorage.setItem('counted_session_view', 'true');
-      }
-      
-      counterElement.innerText = Number(baseCount).toLocaleString();
-    });
-  </script>
-
-
   <div class="modal fade" id="certMernModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content bg-dark border border-secondary">
