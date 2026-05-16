@@ -509,9 +509,9 @@ img {
           <img src="" alt="course 1" class="img-fluid h-auto">
           <div class="p-4">
             <h3 class="h5 mb-2">AI Powered FullStack</h3>
-            <p class="text-muted mb-4">Nov 2024</p>
+            <p class="text-muted mb-4">Jan 2026</p>
             <div class="d-flex justify-content-end">
-              <a target="_blank" href="">View certificate</a>
+              <a target="_blank" href=""class="text-success ">View certificate</a>
             </div>
           </div>
         </div>
@@ -602,36 +602,6 @@ img {
       
       
     </div>
-
-    <div id="all-courses" class="pt-4 d-none">
-     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (9).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Selenium for Beginners</h3>
-            <p class="text-muted mb-4">Jul 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://codered.eccouncil.org/certificate/00c22e25-16a6-4a96-a34d-3c4013ca24bb?logged=false" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (12).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Inventory Management in Excel </h3>
-            <p class="text-muted mb-4">Jun 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1Frcwr70AmfVqj0gWR1Kh7npd3a_li-_K/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       </div>
      </div>
     </div>
