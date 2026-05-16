@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,8 +6,6 @@
   <meta name="title" content="Arun vignesh S - Portfolio | Web Developer | Software Engineer ">
   <meta name="description" content="Explore the portfolio of Nashib Thapa Magar, a innovative, skilled web developer and software engineer specializing in innovative web applications, software solutions, and user-friendly designs. Let's build something great together!">
   <title>Nashib Thapa Magar Portfolio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
 <script>
 /* styles.css */
 body {
@@ -289,8 +286,8 @@ img {
   <!-- Header -->
   <header class="py-3">
     <nav class="container d-flex align-items-center justify-content-between">
-      <span class="fs-2 fw-bold hide-in-small">ArunVignesh</span>
-      <span class="fs-2 fw-bold hide-in-large">Av</span>
+      <span class="fs-2 fw-bold hide-in-small">Nashib Thapa Magar</span>
+      <span class="fs-2 fw-bold hide-in-large">NTM</span>
       <div class="hide-in-small">
         <a href="#projects" class="mx-4 text-decoration-none hover-green">Projects</a>
         <a href="#experience" class="mx-4 text-decoration-none hover-green">Experience</a>
@@ -575,9 +572,8 @@ img {
       <div class="relative mb-4">
         <div class="position-absolute rounded-circle bg-success" style="width: 12px; height: 12px; left: -22px; top: 6px;"></div>
         <div class="ms-4">
-          <h3 class="fs-5 fw-semibold">Bachelor of Engineering in Computer Science (B.E CSE)</h3>
-          <p class="text-muted">AVS Engineering College, affiliated with Anna University (2017 - 2021)</p>
-          <p class="text-muted">CGPA: 7.35/10.0</p>
+          <h3 class="fs-5 fw-semibold">Bachelor of Information Technology (BIT)</h3>
+          <p class="text-muted">Gandaki University (2022 - 2026)</p>
         </div>
       </div>
 
@@ -585,8 +581,7 @@ img {
         <div class="position-absolute rounded-circle bg-success" style="width: 12px; height: 12px; left: -22px; top: 6px;"></div>
         <div class="ms-4">
           <h3 class="fs-5 fw-semibold">Higher Secondary School (12th Grade)</h3>
-          <p class="text-muted">Jay Matriculation Higher Secondary School (2014 - 2016)</p>
-          <p class="text-muted">Percentage: 78.16%</p>
+          <p class="text-muted">Kathmandu Model Higher Secondary School (2012 - 2014)</p>
         </div>
       </div>
 
@@ -594,8 +589,8 @@ img {
         <div class="position-absolute rounded-circle bg-success" style="width: 12px; height: 12px; left: -22px; top: 6px;"></div>
         <div class="ms-4">
           <h3 class="fs-5 fw-semibold">Secondary School (10th Grade)</h3>
-          <p class="text-muted">Jay Matriculation Higher Secondary School (2013 - 2014)</p>
-          <p class="text-muted">Percentage: 79.80%</p>
+          <p class="text-muted">Bright Future Higher Secondary School (2011 - 2012)</p>
+          <p class="text-muted">Percentage: 75%</p>
         </div>
       </div>
     </div>
@@ -607,13 +602,13 @@ img {
   <h2 class="fs-2 fw-bold mb-4">Contact Me</h2>
   <div class="d-flex flex-wrap">
     <div class="p-2">
-      <a href="https://wa.me/918072610437/?text=Hi Arun vignesh, I hope you are doing well! I came across your portfolio recently and was really impressed by your work. Your projects caught my eye. Would you be open to chatting sometime? Let me know what works for you. Looking forward to connecting!" class="contact-chip btn btn-outline-success"  target="_blank" data-contact-type="whatsapp">
+      <a href="https://wa.me/9842266372/?text=Hi Arun vignesh, I hope you are doing well! I came across your portfolio recently and was really impressed by your work. Your projects caught my eye. Would you be open to chatting sometime? Let me know what works for you. Looking forward to connecting!" class="contact-chip btn btn-outline-success"  target="_blank" data-contact-type="whatsapp">
         <svg class="me-2" fill="#ffffff" height="24px" width="24px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>
         WhatsApp
       </a>
     </div>
     <div class="p-2">
-      <a href=mailto:“arunvignesh399@gmail.com?cc=”spectaculararun@gmail.com?subject=Invitation%20to%20Discuss”?body=Dear%20Arun%20vignesh%2C%0A%0AI%20trust%20this%20email%20finds%20you%20well.%20I%20recently%20had%20the%20opportunity%20to%20review%20your%20portfolio%20and%20I%20must%20say%2C%20I%20was%20thoroughly%20impressed%20by%20the%20caliber%20of%20your%20work.%20%0A%0AWould%20you%20be%20available%20for%20a%20brief%20discussion%20at%20your%20earliest%20convenience%3F%20I%20believe%20there%20could%20be%20valuable%20insights%20to%20be%20shared.%0A%0APlease%20let%20me%20know%20your%20availability%2Cand%20I%20will%20ensure%20your%20schedule%20accordingly.%20I%20look%20forward%20to%20the%20possibility%20of%20connecting%20and%20discussing%20further.%0A%0AWarm%20regards%2C%0A%0A%5BYour%20Name%5D%0A%5BYour%20Position%2FTitle%5D%0A%5BYour%20Company%2FOrganization%5D%0A%5BYour%20Contact%20Information%5D class="contact-chip btn btn-outline-success" target="_blank" data-contact-type="email">
+      <a href=mailto:“nashibthapamagar@gmail.com?cc=”spectaculararun@gmail.com?subject=Invitation%20to%20Discuss”?body=Dear%20Arun%20vignesh%2C%0A%0AI%20trust%20this%20email%20finds%20you%20well.%20I%20recently%20had%20the%20opportunity%20to%20review%20your%20portfolio%20and%20I%20must%20say%2C%20I%20was%20thoroughly%20impressed%20by%20the%20caliber%20of%20your%20work.%20%0A%0AWould%20you%20be%20available%20for%20a%20brief%20discussion%20at%20your%20earliest%20convenience%3F%20I%20believe%20there%20could%20be%20valuable%20insights%20to%20be%20shared.%0A%0APlease%20let%20me%20know%20your%20availability%2Cand%20I%20will%20ensure%20your%20schedule%20accordingly.%20I%20look%20forward%20to%20the%20possibility%20of%20connecting%20and%20discussing%20further.%0A%0AWarm%20regards%2C%0A%0A%5BYour%20Name%5D%0A%5BYour%20Position%2FTitle%5D%0A%5BYour%20Company%2FOrganization%5D%0A%5BYour%20Contact%20Information%5D class="contact-chip btn btn-outline-success" target="_blank" data-contact-type="email">
         <svg class="me-2 text-white" fill="#ffffff" viewBox="0 0 24 24" width="24" height="24">
           <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
         </svg>
@@ -621,7 +616,7 @@ img {
       </a>
     </div>
     <div class="p-2">
-      <a href="https://www.google.com/maps/place/12.874702,+79.987930/@12.8746884,79.9879409,21z/data=!4m4!3m3!8m2!3d12.8747021!4d79.9879298" target="_blank" class="contact-chip btn btn-outline-success" data-contact-type="location">
+      <a href="https://myaccount.google.com/" data-contact-type="location">
         <svg class="me-2 text-white" fill="#ffffff" viewBox="0 0 24 24" width="24" height="24">
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
         </svg>
@@ -658,7 +653,7 @@ img {
 <section class="container py-4 d-flex justify-content-center">
   <div class="d-flex">
     <!-- Social Media Links -->
-    <a href="https://github.com/Arun8072" target="_blank" rel="noopener noreferrer" class="social-link me-3">
+    <a href="https://github.com/Nashib09" target="_blank" rel="noopener noreferrer" class="social-link me-3">
       <svg class="text-light" fill="#ffffff" viewBox="0 0 24 24" width="24" height="24">
         <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
       </svg>
@@ -668,7 +663,7 @@ img {
         <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.103-6.102 2.103-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
       </svg>
     </a> -->
-    <a href="https://www.linkedin.com/in/arun-vignesh-108498275" target="_blank" rel="noopener noreferrer" class="social-link">
+    <a href="https://www.linkedin.com/in/nashib-thapa-magar-78b830375/5" target="_blank" rel="noopener noreferrer" class="social-link">
       <svg class="text-light" fill="#ffffff" viewBox="0 0 24 24" width="24" height="24">
         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
       </svg>
