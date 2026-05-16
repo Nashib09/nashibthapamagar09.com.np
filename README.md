@@ -503,6 +503,7 @@ img {
           </div>
         </div>
       </div>
+      </div>
 
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
