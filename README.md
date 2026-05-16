@@ -332,7 +332,7 @@ img {
         <span class="languages_used">Javascript</span>
         <span class="languages_used">React.js</span>
       </p>
-      <a target="_blank" href://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
+      <a target="_blank" href="https://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
     </div>
   </div>
   <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
@@ -347,7 +347,7 @@ img {
         <span class="languages_used">React.js7</span>
         <span class="languages_used">Node.js</span>
       </p>
-      <a target="_blank" href://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
+      <a target="_blank" href="https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
     </div>
   </div>
 
