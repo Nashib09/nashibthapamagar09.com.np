@@ -490,7 +490,6 @@ img {
   <section id="certificates" class="container py-5">
     <h2 class="fs-1 fw-bold mb-4">Courses and Certificates</h2>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
           <img src="" alt="course 1" class="img-fluid h-auto">
@@ -515,12 +514,11 @@ img {
           </div>
         </div>
       </div>
-    <div id ="additional-courses"class="pt-4 d-none">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <!-- Additional courses cards here -->
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (8).jpg" alt="course 1" class="img-fluid h-auto">
+          <img src="" alt="course 1" class="img-fluid h-auto">
           <div class="p-4">
             <h3 class="h5 mb-2">Microsoft Office- Beginner</h3>
             <p class="text-muted mb-4">2012</p>
@@ -531,9 +529,6 @@ img {
         </div>
       </div>
       
-    </div>
-      </div>
-     </div>
     </div>
 
     <div class="text-center mt-4">
