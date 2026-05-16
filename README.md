@@ -489,7 +489,7 @@ img {
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="IMG_2619.jpg" alt="course 1" class="img-fluid h-auto">
+          <img src="IMG_2619.jpg" alt="course 1" class="img-fluid h-auto style="max-width: 200px; max-height: 150px; object-fit: contain;">
           <div class="p-4">
             <h3 class="h5 mb-2">Node.js MERN STACK</h3>
             <p class="text-muted mb-4">Aug 2025</p>
@@ -500,7 +500,7 @@ img {
       </div>
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="IMG_1821.jpg" alt="course 1" class="img-fluid h-auto">
+          <img src="IMG_1821.jpg" class="img-fluid h-auto" alt="course 1" style="max-width: 200px; max-height: 150px; object-fit: contain;">
           <div class="p-4">
             <h3 class="h5 mb-2">AI Powered FullStack</h3>
             <p class="text-muted mb-4">Jan 2026</p>
