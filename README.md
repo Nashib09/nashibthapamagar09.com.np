@@ -309,8 +309,6 @@ img {
     <div class="hero-text">
     <h1 class="fs-1 fw-bold mb-4">Welcome To My Portfolio</h1>
     <p class="lead mb-4">Enthusiastic Full stack developer skilled in JavaScript, Java, PHP, Mysql and modern frameworks.</p>
-    <a target = "_blank" href="https://drive.google.com/file/d/15Euef2BECg9ySndrmeU78hjCulLcA5hW/view?usp=drivesdk" class="btn btn-success">View Resume</a>
-  </div>
   </section>
 
   <!-- Projects Section -->
