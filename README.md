@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="TCYDjPGs4mjTQmvE4JIqweCYrrjbfu549UuGoTykXSg" />
   <meta name="title" content="Arun vignesh S - Portfolio | Web Developer | Software Engineer ">
-  <meta name="description" content="Explore the portfolio of Arun vignesh S, a innovative, skilled web developer and software engineer specializing in innovative web applications, software solutions, and user-friendly designs. Let's build something great together!">
-  <title>Arun vignesh Portfolio</title>
+  <meta name="description" content="Explore the portfolio of Nashib Thapa Magar, a innovative, skilled web developer and software engineer specializing in innovative web applications, software solutions, and user-friendly designs. Let's build something great together!">
+  <title>Nashib Thapa Magar Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
 <script>
@@ -331,13 +331,9 @@ img {
         <span class="languages_used">CSS 3</span>
         <span class="languages_used">Tailwind CSS</span>
         <span class="languages_used">Javascript</span>
-        <span class="languages_used">TensorFlow Js</span>
-        <span class="languages_used">OpenCV Js</span>
-        <span class="languages_used">jsQR</span>
         <span class="languages_used">Face-Api Js</span>
-        <span class="languages_used">Tesseract Js</span>
       </p>
-      <a target="_blank" href="https://github.com/Arun8072/Advanced-real-time-sureillance" class="btn btn-success">View Project</a>
+      <a target="_blank" href="https://github.com/Nashib09" class="btn btn-success">View Project</a>
       <a target="_blank" href="Advanced-real-time-sureillance/" class="btn btn-success px-3">View Website</a>
     </div>
     <div class="gif-container pb-4">
@@ -350,18 +346,18 @@ img {
       
   <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
     <div class="card-content text-start">
-      <h3 class="text-success mb-3">Faster Inspection Report [FIR]</h3>
+      <h3 class="text-success mb-3">Weather APP</h3>
       <p class="text-muted mb-3 descripton-width">
-         A Dedicated site to make the inspection report entry in digital format at 2X faster and 99% accurate with more text formatting and analyzing. 
+         A Dedicated site for Weather Forecasting. 
       </p>
       <p class="pb-3">
         <span class="languages_used">HTML 5</span>
         <span class="languages_used">CSS 3</span>
         <span class="languages_used">Tailwind CSS</span>
         <span class="languages_used">Javascript</span>
+        <span class="languages_used">React.js</span>
       </p>
-      <a target="_blank" href="https://github.com/Arun8072/ReportFormatting" class="btn btn-success">View Project</a>
-      <a target="_blank" href="https://arun8072.github.io/ReportFormatting/" class="btn btn-success px-3">View Website</a>
+      <a target="_blank" https://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
     </div>
     <div class="gif-container pb-4">
       <a target="_blank" href="project_images/report.gif">
@@ -369,51 +365,19 @@ img {
       </a>
     </div>
   </div>
-
   <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
     <div class="card-content text-start">
-      <h3 class="text-success mb-3">Student Performance In Digital Enhanced Report [SPIDER]</h3>
+      <h3 class="text-success mb-3">Contact Management System</h3>
       <p class="text-muted mb-4">
-        A centralized platform to comprehensively document students extracurricular endeavors, inter-college and intra-college competition performances, organized in a hierarchical structure by department, year, and class. This platform aims to showcase students accomplishments and foster motivation to improve performance. Features include individual student logins, search and filter capabilities, visual data representations through charts, and additional functionalities tailored to enhance the user experience.
+        A centralized website for contact management system.
       </p>
       <p class="pb-3">
-        <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
-        <span class="languages_used">Materialize css</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Jquery</span>
-        <span class="languages_used">PHP 7</span>
-        <span class="languages_used">Mysql 8</span>
+        <span class="languages_used">Mongo DB</span>
+        <span class="languages_used">Express JS</span>
+        <span class="languages_used">React.js7</span>
+        <span class="languages_used">Node.js</span>
       </p>
-      <a target="_blank" href="https://github.com/Arun8072/ReportFormatting" class="btn btn-success">View Project</a>
-      <!-- <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a> -->
-    </div>
-    <div class="gif-container pb-4">
-      <a target="_blank" href="project_images/spi.gif">
-      <img src="project_images/spi.gif" alt="Course GIF" class="course-gif">
-      </a>
-    </div>
-  </div>
-
-  <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-    <div class="card-content text-start">
-      <h3 class="text-success mb-3">Attendance and Information Management System [AIMS]</h3>
-      <p class="text-muted mb-4">
-        A centralized website for college or school where teachers finishes thier students attendance in digital entry by just a clicks and editable after submit, also gives a detailed view.
-      </p>
-      <p class="pb-3">
-        <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
-        <span class="languages_used">Materialize css</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Jquery</span>
-        <span class="languages_used">PHP 7</span>
-        <span class="languages_used">Mysql 8</span>
-      </p>
-      <a target="_blank" href="https://github.com/Arun8072/AttendanceAndInformationSystem" class="btn btn-success">View Project</a>
-      <!-- <a target="_blank" href="#" class="btn btn-succes px-3">View Website</a> -->
+      <a target="_blank" https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
     </div>
     <div class="gif-container pb-3">
       <a target="_blank" href="project_images/attendance.gif">
@@ -424,9 +388,9 @@ img {
 
  <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3"> 
     <div class="card-content text-start">
-      <h3 class="text-success mb-3">Results Web Portal</h3>
+      <h3 class="text-success mb-3">Student Management System</h3>
       <p class="text-muted mb-4 descripton-width">
-        View your semester results or exam results in detail at anytime with downloadable pdf.
+        View Student Portal anytime with downloadable pdf.
       </p>
       <p class="pb-3">
         <span class="languages_used">HTML 5</span>
@@ -435,8 +399,7 @@ img {
         <span class="languages_used">PHP 7 | FPDF</span>
         <span class="languages_used">Mysql 8</span>
       </p>
-      <a target="_blank" href="https://github.com/Arun8072/ResultsWebPortal" class="btn btn-success">View Project</a>
-      <!-- <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a> -->
+      <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success">View Project</a>
     </div>
     <div class="gif-container pb-4">
       <a target="_blank" href="project_images/marks.gif">
@@ -461,7 +424,7 @@ img {
         <span class="languages_used">Bootstrap 5</span>
         <span class="languages_used">Javascript</span>
             </p>
-            <a target="_blank" href="https://github.com/Arun8072/myPortfolio" class="btn btn-success">View Project</a>
+            <a target="_blank" href="https://github.com/Nashib09/nashibthapamagar09.com.np.git" class="btn btn-success">View Project</a>
         </div>
         <div class="gif-container pb-4">
           <a target="_blank" href="project_images/portfolio.gif">
