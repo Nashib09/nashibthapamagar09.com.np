@@ -332,7 +332,7 @@ img {
         <span class="languages_used">Javascript</span>
         <span class="languages_used">React.js</span>
       </p>
-      <a target="_blank" https://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
+      <a target="_blank" href://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
     </div>
   </div>
   <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
@@ -347,7 +347,7 @@ img {
         <span class="languages_used">React.js7</span>
         <span class="languages_used">Node.js</span>
       </p>
-      <a target="_blank" https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
+      <a target="_blank" href://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
     </div>
   </div>
 
@@ -392,139 +392,9 @@ img {
         </div>
       </div>
 
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Event management</h3>
-            <p class="text-muted mb-3">
-              A centralized site for teachers to store their events like , paper presentation ,course, journal, patent etc and view other teachers works.
-            </p>
-            <p>
-            <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
-        <span class="languages_used">Materialize css</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Jquery</span>
-        <span class="languages_used">PHP 7</span>
-        <span class="languages_used">Mysql 8</span>
-      </p>
-            <a target="_blank" href="https://github.com/Arun8072/EventManagement" class="btn btn-success">View Project</a>
-            <!-- <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a> -->
-        </div>
-        <div class="gif-container pb-4">
-          <img src="vectorImg/project(10).png" alt="Course GIF" class="course-gif">
-        </div>
-      </div>
 
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Equilibrium Slides</h3>
-            <p class="text-muted mb-3">
-              Present your power point presentation in schools or collages with remote control in your hands by mobile.
-            </p>
-            <p>
-            <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Jquery</span>
-        <span class="languages_used">PHP 7</span>
-      </p>
-            <a target="_blank" href="https://github.com/Arun8072/equilibriumSlides" class="btn btn-success">View Project</a>
-            <!-- <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a> -->
-        </div>
-        <div class="gif-container pb-4">
-          <img src="vectorImg/project(10).png" alt="Course GIF" class="course-gif">
-        </div>
-      </div>
-
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Sweet heart</h3>
-            <p class="text-muted mb-3">
-            Make a quiz for friends to check how well they know you! Create quiz questions about yourself. You can write your own questions and answers and generate the link and share to the friends and get their answers in view page.
-            </p>
-            <p>
-            <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Jquery</span>
-        <span class="languages_used">PHP 7</span>
-        <span class="languages_used">Mysql 8</span>
-      </p>
-            <a target="_blank" href="https://github.com/Arun8072/SweetHeart" class="btn btn-success">View Project</a>
-            <!-- <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a> -->
-        </div>
-        <div class="gif-container pb-4">
-          <img src="vectorImg/project(10).png" alt="Course GIF" class="course-gif">
-        </div>
-      </div>
-
-    </div>
-
-  
-        <div class="gif-container pb-4">
-          <img src=" " alt="Course GIF" class="course-gif">
-        </div>
-      </div>
-
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Bike kart</h3>
-            <p class="text-muted mb-3">
-            A simple shopping website for bike only. 
-            </p>
-            <p>
-            <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Jquery</span>
-        <span class="languages_used">PHP 7</span>
-        <span class="languages_used">Mysql 8</span>
-      </p>
-            <a target="_blank" href="https://github.com/Arun8072/BikeKart" class="btn btn-success">View Project</a>
-            <!-- <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a> -->
-        </div>
-        <div class="gif-container pb-4">
-          <img src="vectorImg/project(10).png" alt="Course GIF" class="course-gif">
-        </div>
-      </div>
+    
   <!--
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Coursera automatation</h3>
-            <p class="text-muted mb-3">
-              Automating video, quiz and article of the course at their best and complete 70% -90% within short time and less effort
-            </p>
-            
-            <p><span class="languages_used">Javascript</span></p>
-        
-            <a target="_blank" href="https://github.com/Arun8072/courseraAutomation" class="btn btn-success">View Project</a>
-            <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a>
-        </div>
-        <div class="gif-container pb-4">
-          <img src="vectorImg/project(10).png" alt="Course GIF" class="course-gif">
-        </div>
-      </div>
-
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Hack the udemy</h3>
-            <p class="text-muted mb-3">
-               Complete the 100% course and get the certificate within one minute.
-            </p>
-
-            <p><span class="languages_used">Javascript</span></p>
-
-            <a target="_blank" href="https://github.com/Arun8072/HackTheUdemy" class="btn btn-success">View Project</a>
-            <a target="_blank" href="#" class="btn btn-success  px-3">View Website</a>
-        </div>
-        <div class="gif-container pb-4">
-          <img src="vectorImg/project(10).png" alt="Course GIF" class="course-gif">
-        </div>
-      </div>
     -->
 <!--
       <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
