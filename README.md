@@ -503,8 +503,6 @@ img {
           </div>
         </div>
       </div>
-      </div>
-
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
           <img src="" alt="course 1" class="img-fluid h-auto">
@@ -517,90 +515,21 @@ img {
           </div>
         </div>
       </div>
-      </div>
     <div id ="additional-courses"class="pt-4 d-none">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <!-- Additional courses cards here -->
-
-        <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (5).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Communication Skills</h3>
-            <p class="text-muted mb-4">Apr 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1Eo401l49GkqScFyO6sguLYTuPNYoJv-V/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (6).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Multithreading in Java</h3>
-            <p class="text-muted mb-4">Jun 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1GLM4bujadBsZo0alemmjgw3ZhYEMSofk/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (7).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Network Application in Java</h3>
-            <p class="text-muted mb-4">Jun 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1G5EcFxgME9vNfyiLQ58g-Xy3MfD6sPtX/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
           <img src="certificates/course (8).jpg" alt="course 1" class="img-fluid h-auto">
           <div class="p-4">
-            <h3 class="h5 mb-2">Microsoft Excel - Beginner</h3>
-            <p class="text-muted mb-4">Jun 2023</p>
+            <h3 class="h5 mb-2">Microsoft Office- Beginner</h3>
+            <p class="text-muted mb-4">2012</p>
             <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1EsvXiHNJsNHNnv-wGSn_p8MPsKNUgKFY/view?usp=drivesdk" class="text-success ">View certificate</a>
+              <a target="_blank" href="" class="text-success ">View certificate</a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (10).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Web Scraping With Python</h3>
-            <p class="text-muted mb-4">Apr 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1F0uEPyGHQoW74tiA6slxceIdlUjPHSYB/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="certificates/course (11).jpg" alt="course 1" class="img-fluid h-auto">
-          <div class="p-4">
-            <h3 class="h5 mb-2">Visual Basic for Excel </h3>
-            <p class="text-muted mb-4">Jun 2023</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="https://drive.google.com/file/d/1EuH0Zsg14uFGxvFIOqnjHePqQfmecI2L/view?usp=drivesdk" class="text-success ">View certificate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
       
     </div>
       </div>
