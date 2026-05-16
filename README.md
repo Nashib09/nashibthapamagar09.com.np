@@ -3,10 +3,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="TCYDjPGs4mjTQmvE4JIqweCYrrjbfu549UuGoTykXSg" />
-  <meta name="title" content="Arun vignesh S - Portfolio | Web Developer | Software Engineer ">
+  <meta name="title" content="Nashib Thapa Magar - Portfolio | Web Developer | Software Engineer ">
   <meta name="description" content="Explore the portfolio of Nashib Thapa Magar, a innovative, skilled web developer and software engineer specializing in innovative web applications, software solutions, and user-friendly designs. Let's build something great together!">
   <title>Nashib Thapa Magar Portfolio</title>
-<script>
+<style>
 /* styles.css */
 body {
   font-family: 'Roboto', sans-serif;
@@ -280,7 +280,7 @@ img {
 #myVideo {
   filter:grayscale(50%) hue-rotate(0deg) saturate(50%);
 }
-</script>
+</style>
 </head>
 <body class="bg-dark text-light">
   <!-- Header -->
