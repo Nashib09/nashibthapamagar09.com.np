@@ -487,7 +487,15 @@ img {
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="IMG_2619.jpg"  class="img-fluid h-auto" alt="course 1" style="max-width: 200px; max-height: 150px; object-fit: contain;">
+          <button id="viewCertBtn" class="cert-btn">View Certificate</button>
+
+<!-- The Modal (Hidden by default) -->
+<div id="certModal" class="modal">
+  <span class="close-btn">&times;</span>
+  <div class="modal-content-wrapper">
+    <img src="IMG_2619.jpg" class="modal-content" alt="Course 1 Certificate">
+  </div>
+</div>
           <div class="p-4">
             <h3 class="h5 mb-2">Node.js MERN STACK</h3>
             <p class="text-muted mb-4">Aug 2025</p>
@@ -498,7 +506,15 @@ img {
       </div>
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="IMG_1821.jpg" class="img-fluid h-auto" alt="course 1" style="max-width: 200px; max-height: 150px; object-fit: contain;">
+          <button id="viewCertBtn" class="cert-btn">View Certificate</button>
+
+<!-- The Modal (Hidden by default) -->
+<div id="certModal" class="modal">
+  <span class="close-btn">&times;</span>
+  <div class="modal-content-wrapper">
+    <img src="IMG_18215.jpg" class="modal-content" alt="Course 1 Certificate">
+  </div>
+</div>
           <div class="p-4">
             <h3 class="h5 mb-2">AI Powered FullStack</h3>
             <p class="text-muted mb-4">Jan 2026</p>
@@ -526,7 +542,15 @@ img {
   <!-- Internship Section -->
   <section id="internship" class="container py-5">
     <div class="d-flex"><h2 class="fs-1 fw-bold mb-4 col-6">Internship</h2><span class="col-6 text-end">
-      <img src=""  class="img-fluid h-auto" alt="course 1" style="max-width: 200px; max-height: 150px; object-fit: contain;"></span></div>
+      <button id="viewCertBtn" class="cert-btn">View Certificate</button>
+
+<!-- The Modal (Hidden by default) -->
+<div id="certModal" class="modal">
+  <span class="close-btn">&times;</span>
+  <div class="modal-content-wrapper">
+    <img src="IMG_2105.jpg" class="modal-content" alt="Course 1 Certificate">
+  </div>
+</div></span></div>
     <p class="text-muted">Virtual internship on System integration role and technical support [December 2025 - February-2026]</p>
 
   <!-- About Section -->
