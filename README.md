@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +8,6 @@
   <meta name="description" content="Explore the portfolio of Nashib Thapa Magar, an innovative, skilled web developer and software engineer specializing in innovative web applications, software solutions, and user-friendly designs. Let's build something great together!">
   <title>Nashib Thapa Magar Portfolio</title>
   
-  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   
   <style>
@@ -61,20 +61,12 @@
       border-radius: 12px;
       overflow: hidden;
     }
-    .cert-img-responsive {
-      width: 100%;
-      height: auto;
-      max-height: 75vh;
-      object-fit: contain;
-      background-color: #1a1a1a;
-    }
 
     /* Timeline styling */
     .timeline-item {
       position: relative;
       padding-left: 2rem;
     }
-    /* ... Keep your existing timeline, hero, and language badge styles intact ... */
     .languages_used {
       margin: 5px;
       padding: 5px;
@@ -140,22 +132,19 @@
 </head>
 <body class="bg-dark text-light">
 
-  <!-- Header -->
   <header class="py-3">
     <nav class="container d-flex align-items-center justify-content-between">
       <span class="fs-2 fw-bold hide-in-small">Nashib Thapa Magar</span>
       <span class="fs-2 fw-bold hide-in-large">NTM</span>
       <div class="hide-in-small">
         <a href="#projects" class="mx-4">Projects</a>
-        <a href="#experience" class="mx-4">Experience</a>
         <a href="#certificates" class="mx-4">Certificates</a>
-        <a href="#skills" class="mx-4">Skills</a>
+        <a href="#internship" class="mx-4">Internship</a>
         <a href="#contact" class="mx-4">Contact</a>
       </div>
     </nav>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero-section py-5 text-center">
     <video autoplay muted loop id="myVideo">
       <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4">
@@ -166,11 +155,9 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
   <section id="projects" class="container py-5">
     <h2 class="fs-1 fw-bold mb-4">Featured Projects</h2>
     
-    <!-- Weather App -->
     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Weather APP</h3>
@@ -186,7 +173,6 @@
       </div>
     </div>
 
-    <!-- Contact CMS -->
     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Contact Management System</h3>
@@ -202,12 +188,10 @@
     </div>
   </section>
 
-  <!-- Certificates Section -->
   <section id="certificates" class="container py-5">
     <h2 class="fs-1 fw-bold mb-4">Courses and Certificates</h2>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       
-      <!-- Card 1: MERN Stack -->
       <div class="col">
         <div class="bg-dark border border-secondary rounded p-4 h-100 d-flex flex-column justify-content-between">
           <div>
@@ -218,7 +202,6 @@
         </div>
       </div>
 
-      <!-- Card 2: AI FullStack -->
       <div class="col">
         <div class="bg-dark border border-secondary rounded p-4 h-100 d-flex flex-column justify-content-between">
           <div>
@@ -229,14 +212,12 @@
         </div>
       </div>
 
-      <!-- Card 3: MS Office -->
       <div class="col">
         <div class="bg-dark border border-secondary rounded p-4 h-100 d-flex flex-column justify-content-between">
           <div>
             <h3 class="h5 mb-2 text-success">Microsoft Office- Beginner</h3>
             <p class="text-muted">2012</p>
           </div>
-          <!-- Keep placeholder clean without breaking image layout -->
           <div class="text-muted small italic">Image Attachment Verified</div>
         </div>
       </div>
@@ -244,18 +225,16 @@
     </div>
   </section>
 
-  <!-- Internship Section -->
   <section id="internship" class="container py-5">
-  <div class="d-flex justify-content-between align-items-center mb-4 border-bottom border-secondary pb-2">
-    <h2 class="fs-1 fw-bold m-0">Internship</h2>
-    <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
-  </div>
-  <p class="text-muted fs-5">
-    Virtual internship on System integration role and technical support [December 2025 - February 2026]
-  </p>
-</section>
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom border-secondary pb-2">
+      <h2 class="fs-1 fw-bold m-0 text-light">Internship</h2>
+      <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
+    </div>
+    <p class="text-secondary fs-5 mt-3">
+      Virtual internship on System integration role and technical support [December 2025 - February 2026]
+    </p>
+  </section>
 
-  <!-- Contact & Socials -->
   <section id="contact" class="container py-5">
     <h2 class="fs-2 fw-bold mb-4">Contact Me</h2>
     <div class="d-flex flex-wrap gap-3 mb-5">
@@ -267,7 +246,6 @@
       </a>
     </div>
 
-    <!-- Feedback Form inside columns to prevent page breaks -->
     <div class="row">
       <div class="col-md-6">
         <h3 class="fs-4 mb-3">Feedback</h3>
@@ -286,7 +264,6 @@
     </div>
   </section>
 
-  <!-- Social Icons Center Layout -->
   <div class="d-flex justify-content-center gap-3 py-4">
     <a href="https://github.com/Nashib09" target="_blank" rel="noopener noreferrer" class="social-link">
       <svg fill="#ffffff" viewBox="0 0 24 24" width="22" height="22"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
@@ -296,7 +273,6 @@
     </a>
   </div>
 
-  <!-- Footer Layout -->
   <footer class="bg-dark py-4 text-center border-top border-secondary">
     <div class="mb-2">
       <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
@@ -306,54 +282,48 @@
   </footer>
 
 
-  <!-- ALL CERTIFICATE MODALS (Grouped together at the bottom cleanly) -->
-
-  <!-- Modal 1: MERN Stack -->
   <div class="modal fade" id="certMernModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-dark">
+      <div class="modal-content bg-dark border border-secondary">
         <div class="modal-header border-0 d-flex justify-content-between align-items-center bg-dark py-2 px-3">
           <span class="text-muted small">Node.js MERN STACK Certificate</span>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body p-0 text-center">
-          <img src="IMG_2619.jpg" class="img-fluid cert-img-responsive" alt="MERN Stack Certificate">
+        <div class="modal-body p-3 text-center bg-dark">
+          <img src="IMG_2619.jpg" class="d-block w-100 h-auto rounded" style="max-height: 70vh; object-fit: contain;" alt="MERN Stack Certificate">
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Modal 2: AI FullStack -->
   <div class="modal fade" id="certAiModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-dark">
+      <div class="modal-content bg-dark border border-secondary">
         <div class="modal-header border-0 d-flex justify-content-between align-items-center bg-dark py-2 px-3">
           <span class="text-muted small">AI Powered FullStack Certificate</span>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body p-0 text-center">
-          <img src="IMG_18215.jpg" class="img-fluid cert-img-responsive" alt="AI FullStack Certificate">
+        <div class="modal-body p-3 text-center bg-dark">
+          <img src="IMG_18215.jpg" class="d-block w-100 h-auto rounded" style="max-height: 70vh; object-fit: contain;" alt="AI FullStack Certificate">
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Modal 3: Internship -->
   <div class="modal fade" id="certInternshipModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content bg-dark">
+      <div class="modal-content bg-dark border border-secondary">
         <div class="modal-header border-0 d-flex justify-content-between align-items-center bg-dark py-2 px-3">
           <span class="text-muted small">Internship Certificate</span>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body p-0 text-center">
-          <img src="IMG_2105.jpg" class="img-fluid cert-img-responsive" alt="Internship Certificate">
+        <div class="modal-body p-3 text-center bg-dark">
+          <img src="IMG_2105.jpg" class="d-block w-100 h-auto rounded" style="max-height: 70vh; object-fit: contain;" alt="Internship Certificate">
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Upgraded Bootstrap 5 CDN JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
