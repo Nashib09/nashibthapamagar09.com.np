@@ -203,36 +203,6 @@
     </div>
   </section>
 
-  <!-- Work Experience Section -->
-  <section id="experience" class="container py-5">
-    <h2 class="fs-1 fw-bold mb-4">Work Experience</h2>
-    <div class="border-start border-success border-2 mx-4 position-relative">
-      
-      <!-- Job 1 -->
-      <div class="mb-5 position-relative ps-4">
-        <div class="position-absolute rounded-circle bg-success" style="width: 12px; height: 12px; left: -7px; top: 8px;"></div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <h3 class="fs-5 fw-semibold">Assembly Operator | India Yamaha Motors Private Limited</h3>
-          <span class="text-muted">Jan 2025 - Present</span>
-        </div>
-        <p class="text-muted mb-1">Emp ID: ZH966</p>
-        <p class="text-muted">Engaged as an Assembly Operator at India's Premier Bike Company.</p>
-      </div>
-
-      <!-- Job 2 -->
-      <div class="mb-4 position-relative ps-4">
-        <div class="position-absolute rounded-circle bg-success" style="width: 12px; height: 12px; left: -7px; top: 8px;"></div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <h3 class="fs-5 fw-semibold">Quality Control Trainee | Steel Strips Wheels Private Limited</h3>
-          <span class="text-muted">Aug 2023 - Oct 2024 (1.2 Years)</span>
-        </div>
-        <p class="text-muted mb-1">Emp ID: 10207738</p>
-        <p class="text-muted">Experienced in Car Plant PDI and EV line PDI processes. Executed comprehensive wheel inspections, mastered precise measurement instrumentation adjustments, and coordinated with core cross-functional engineering teams.</p>
-      </div>
-
-    </div>
-  </section>
-
   <!-- Certificates Section -->
   <section id="certificates" class="container py-5">
     <h2 class="fs-1 fw-bold mb-4">Courses and Certificates</h2>
