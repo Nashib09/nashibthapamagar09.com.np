@@ -246,13 +246,14 @@
 
   <!-- Internship Section -->
   <section id="internship" class="container py-5">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <h2 class="fs-1 fw-bold m-0">Internship</h2>
-      <p class="text-muted">Virtual internship on System integration role and technical support [December 2025 - February 2026]</p>
-      <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
-    </div>
-    <p class="text-muted">Virtual internship on System integration role and technical support [December 2025 - February 2026]</p>
-  </section>
+  <div class="d-flex justify-content-between align-items-center mb-4 border-bottom border-secondary pb-2">
+    <h2 class="fs-1 fw-bold m-0">Internship</h2>
+    <button class="cert-btn" data-bs-toggle="modal" data-bs-target="#certInternshipModal">View Certificate</button>
+  </div>
+  <p class="text-muted fs-5">
+    Virtual internship on System integration role and technical support [December 2025 - February 2026]
+  </p>
+</section>
 
   <!-- Contact & Socials -->
   <section id="contact" class="container py-5">
