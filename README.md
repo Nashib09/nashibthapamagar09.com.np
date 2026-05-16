@@ -284,13 +284,20 @@
     </a>
   </div>
 
-  <footer class="bg-dark py-4 text-center border-top border-secondary">
-    <div class="mb-2">
-      <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
-      <img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=1hj21sf4w466myh3squ4qtj4zhd23te7" border="0" title="Page Counter" alt="Page Counter">
-    </div>
-    <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
-  </footer>
+ <footer class="bg-dark py-4 text-center border-top border-secondary">
+  <div class="mb-2">
+    <h6 class="text-muted m-0 mb-2">Visitor Count</h6>
+    <span id="visitor-counter" class="badge bg-success fs-6 px-3 py-2 fw-semibold">Loading...</span>
+  </div>
+  <p class="text-muted small m-0">&copy; 2026 Portfolio. All rights reserved.</p>
+</footer>
+
+<script>
+  function cb(response) {
+    document.getElementById('visitor-counter').innerText = response.value;
+  }
+</script>
+<script async src="https://api.countapi.xyz/hit/nashib-portfolio-2026/visits?callback=cb"></script>
 
 
   <div class="modal fade" id="certMernModal" tabindex="-1" aria-hidden="true">
