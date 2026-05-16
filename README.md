@@ -304,7 +304,7 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-3 text-center bg-dark">
-          <img src="IMG_18215.jpg" class="d-block w-100 h-auto rounded" style="max-height: 70vh; object-fit: contain;" alt="AI FullStack Certificate">
+          <img src="IMG_1821.jpg" class="d-block w-100 h-auto rounded" style="max-height: 70vh; object-fit: contain;" alt="AI FullStack Certificate">
         </div>
       </div>
     </div>
