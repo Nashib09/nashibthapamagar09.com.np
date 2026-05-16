@@ -185,6 +185,18 @@
         <a target="_blank" href="https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
       </div>
     </div>
+     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
+      <div class="card-content text-start">
+        <h3 class="text-success mb-3">Contact Management System</h3>
+        <p class="text-muted mb-4">A centralized website for contact management system.</p>
+        <p class="pb-3">
+          <span class="languages_used">Mongo DB</span>
+          <span class="languages_used">Next.JS</span>
+          <span class="languages_used">Tailwind CSS</span>
+        </p>
+        <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success">View Project</a>
+      </div>
+    </div>
   </section>
 
   <section id="certificates" class="container py-5">
