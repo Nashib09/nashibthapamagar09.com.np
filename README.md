@@ -492,24 +492,21 @@ img {
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="" alt="course 1" class="img-fluid h-auto">
+          <img src="IMG_2619.jpg" alt="course 1" class="img-fluid h-auto">
           <div class="p-4">
             <h3 class="h5 mb-2">Node.js MERN STACK</h3>
             <p class="text-muted mb-4">Aug 2025</p>
             <div class="d-flex justify-content-end">
-              <a target="_blank" href=" class="text-success ">View certificate</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="bg-dark rounded shadow overflow-hidden">
-          <img src="" alt="course 1" class="img-fluid h-auto">
+          <img src="IMG_1821.jpg" alt="course 1" class="img-fluid h-auto">
           <div class="p-4">
             <h3 class="h5 mb-2">AI Powered FullStack</h3>
             <p class="text-muted mb-4">Jan 2026</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href=""class="text-success ">View certificate</a>
             </div>
           </div>
         </div>
@@ -522,8 +519,6 @@ img {
           <div class="p-4">
             <h3 class="h5 mb-2">Microsoft Office- Beginner</h3>
             <p class="text-muted mb-4">2012</p>
-            <div class="d-flex justify-content-end">
-              <a target="_blank" href="" class="text-success ">View certificate</a>
             </div>
           </div>
         </div>
