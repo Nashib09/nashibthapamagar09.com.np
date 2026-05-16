@@ -319,31 +319,6 @@ img {
   <!-- Projects Section -->
   <section id="projects" class="container py-5">
     <h2 class="fs-1 fw-bold mb-4">Featured Projects</h2>
-
-    <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-    <div class="card-content text-start">
-      <h3 class="text-success mb-3">Advanced Real Time Surveillence using Machine Language</h3>
-      <p class="text-muted mb-3 descripton-width">
-         This AI vvision Application is a cutting edge,real time computer vision system that integrates multipe AI models to perform advanced analysis on live video streams directly in web browsers. It's designed to showcase the power of browers.It's designed to showcase the power of browser based AI and provide real time analysis for various use cases.
-      </p>
-      <p class="pb-3">
-        <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Tailwind CSS</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">Face-Api Js</span>
-      </p>
-      <a target="_blank" href="https://github.com/Nashib09" class="btn btn-success">View Project</a>
-      <a target="_blank" href="Advanced-real-time-sureillance/" class="btn btn-success px-3">View Website</a>
-    </div>
-    <div class="gif-container pb-4">
-      <a target="_blank" href="#">
-      <img src="" alt="Course GIF" class="course-gif">
-      </a>
-    </div>
-  </div>
-
-      
   <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
     <div class="card-content text-start">
       <h3 class="text-success mb-3">Weather APP</h3>
@@ -358,11 +333,6 @@ img {
         <span class="languages_used">React.js</span>
       </p>
       <a target="_blank" https://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
-    </div>
-    <div class="gif-container pb-4">
-      <a target="_blank" href="project_images/report.gif">
-      <img src="project_images/report.gif" alt="Course GIF" class="course-gif">
-      </a>
     </div>
   </div>
   <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
@@ -379,11 +349,6 @@ img {
       </p>
       <a target="_blank" https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
     </div>
-    <div class="gif-container pb-3">
-      <a target="_blank" href="project_images/attendance.gif">
-      <img src="project_images/attendance.gif" alt="Course GIF" class="course-gif">
-      </a>
-    </div>
   </div>
 
  <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3"> 
@@ -396,15 +361,10 @@ img {
         <span class="languages_used">HTML 5</span>
         <span class="languages_used">CSS 3</span>
         <span class="languages_used">Javascript</span>
-        <span class="languages_used">PHP 7 | FPDF</span>
-        <span class="languages_used">Mysql 8</span>
+        <span class="languages_used">Next.js| FPDF</span>
+        <span class="languages_used">Mongo DB</span>
       </p>
       <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success">View Project</a>
-    </div>
-    <div class="gif-container pb-4">
-      <a target="_blank" href="project_images/marks.gif">
-      <img src="project_images/marks.gif" alt="Course GIF" class="course-gif">
-      </a>
     </div>
   </div>
 
@@ -421,7 +381,6 @@ img {
             <p class="pb-3">
               <span class="languages_used">HTML 5</span>
         <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Bootstrap 5</span>
         <span class="languages_used">Javascript</span>
             </p>
             <a target="_blank" href="https://github.com/Nashib09/nashibthapamagar09.com.np.git" class="btn btn-success">View Project</a>
@@ -504,24 +463,7 @@ img {
 
     </div>
 
-    <div id="all-projects" class="pt-4 d-none">
-
-      <div class="glassmorphism-card d-flex flex-column-reverse flex-md-row align-items-center my-3">
-        <div class="card-content text-start">
-           <h3 class="text-success mb-3">Fuel Delivery Service</h3>
-            <p class="text-muted mb-3">
-            This project is a web based fuel delivery service application that allows customers to order petrol or diesal in critical situation for thier vehicles and have it delivered to their location which is delivered from the nearest petrol bunk of the company.
-            </p>
-            <p>
-            <span class="languages_used">HTML 5</span>
-        <span class="languages_used">CSS 3</span>
-        <span class="languages_used">Tailwind CSS</span>
-        <span class="languages_used">Javascript</span>
-        <span class="languages_used">PHP 7</span>
-      </p>
-            <a target="_blank" href="https://github.com/Arun8072/Fuel-delivery" class="btn btn-success">View Project</a>
-            <a target="_blank" href="https://arun8072.github.io/Fuel-delivery" class="btn btn-success  px-3">View Website</a>
-        </div>
+  
         <div class="gif-container pb-4">
           <img src=" " alt="Course GIF" class="course-gif">
         </div>
