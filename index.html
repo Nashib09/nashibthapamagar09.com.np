@@ -205,6 +205,7 @@
     </div>
 
     <div id="more-projects" class="d-none">
+      
       <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-4">
         <div class="card-content text-start w-100">
           <h3 class="text-success mb-3">Contact Management System</h3>
@@ -350,11 +351,15 @@
       const moreProjects = document.getElementById('more-projects');
       
       if (moreProjects.classList.contains('d-none')) {
+        // Show remaining projects
         moreProjects.classList.remove('d-none');
         this.innerHTML = 'See Less <i class="fas fa-chevron-up ms-1"></i>';
       } else {
+        // Hide remaining projects
         moreProjects.classList.add('d-none');
         this.innerHTML = 'See More <i class="fas fa-chevron-down ms-1"></i>';
+        
+        // Return window focus back to top of projects area
         document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
       }
     });
