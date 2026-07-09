@@ -153,44 +153,46 @@
     </div>
   </section>
 
-  <section id="projects" class="container py-5">
-    <h2 class="fs-1 fw-bold mb-4">Featured Projects</h2>
-<div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
-  <div class="card-content text-start">
-    <h3 class="text-success mb-3">Bhimbadh Multipurpose Agro Group Pvt. Ltd.</h3>
-    <p>A centralized website for Bhimbadh Multipurpose Agro Group Pvt. Ltd.</p>
-    
-    <div class="mb-3">
-      <a target="_blank" href="http://bmag.com.np/" class="btn btn-sm btn-outline-success">
-        <i class="fas fa-external-link-alt me-1"></i> Visit Website
-      </a>
-    </div>
-
-    <p class="pb-3">
-      <span class="languages_used">HTML</span>
-      <span class="languages_used">JavaScript</span>
-      <span class="languages_used">CSS</span>
-      <span class="languages_used">MONGODB</span>
-    </p>
-    <a target="_blank" href="https://github.com/nashib9-hub/bmag.com.np.git" class="btn btn-success">View Project</a>
-  </div>
-</div>
-    
-    <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
-      <div class="card-content text-start">
-        <h3 class="text-success mb-3">Weather APP</h3>
-        <p>A Dedicated site for Weather Forecasting.</p>
-        <p class="pb-3">
-          <span class="languages_used">HTML 5</span>
-          <span class="languages_used">CSS 3</span>
-          <span class="languages_used">Tailwind CSS</span>
-          <span class="languages_used">JavaScript</span>
-          <span class="languages_used">React.js</span>
-        </p>
-        <a target="_blank" href="https://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
+<section id="projects" class="container py-5">
+  <h2 class="fs-1 fw-bold mb-4">Featured Projects</h2>
+  
+  <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
+    <div class="card-content text-start">
+      <h3 class="text-success mb-3">Bhimbadh Multipurpose Agro Group Pvt. Ltd.</h3>
+      <p>A centralized website for Bhimbadh Multipurpose Agro Group Pvt. Ltd.</p>
+      
+      <div class="mb-3">
+        <a target="_blank" href="http://bmag.com.np/" class="btn btn-sm btn-outline-success">
+          <i class="fas fa-external-link-alt me-1"></i> Visit Website
+        </a>
       </div>
-    </div>
 
+      <p class="pb-3">
+        <span class="languages_used">HTML</span>
+        <span class="languages_used">JavaScript</span>
+        <span class="languages_used">CSS</span>
+        <span class="languages_used">MONGODB</span>
+      </p>
+      <a target="_blank" href="https://github.com/nashib9-hub/bmag.com.np.git" class="btn btn-success">View Project</a>
+    </div>
+  </div>
+  
+  <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
+    <div class="card-content text-start">
+      <h3 class="text-success mb-3">Weather APP</h3>
+      <p>A Dedicated site for Weather Forecasting.</p>
+      <p class="pb-3">
+        <span class="languages_used">HTML 5</span>
+        <span class="languages_used">CSS 3</span>
+        <span class="languages_used">Tailwind CSS</span>
+        <span class="languages_used">JavaScript</span>
+        <span class="languages_used">React.js</span>
+      </p>
+      <a target="_blank" href="https://github.com/Nashib09/Weather-App-using-React.js.git" class="btn btn-success">View Project</a>
+    </div>
+  </div>
+
+  <div id="more-projects" class="d-none">
     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Contact Management System</h3>
@@ -204,7 +206,8 @@
         <a target="_blank" href="https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success">View Project</a>
       </div>
     </div>
-     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
+
+    <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-3">
       <div class="card-content text-start">
         <h3 class="text-success mb-3">Student Management System</h3>
         <p>A centralized website for Student Portal.</p>
@@ -216,8 +219,33 @@
         <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success">View Project</a>
       </div>
     </div>
+  </div>
+
+  <div class="text-center mt-4">
+    <button id="see-more-btn" class="btn btn-outline-success px-4 py-2">
+      See More <i class="fas fa-chevron-down ms-1"></i>
+    </button>
+  </div>
+</section>
+
+<script>
+  document.getElementById('see-more-btn').addEventListener('click', function() {
+    const moreProjects = document.getElementById('more-projects');
     
-  </section>
+    if (moreProjects.classList.contains('d-none')) {
+      // Show remaining projects
+      moreProjects.classList.remove('d-none');
+      this.innerHTML = 'See Less <i class="fas fa-chevron-up ms-1"></i>';
+    } else {
+      // Hide remaining projects
+      moreProjects.classList.add('d-none');
+      this.innerHTML = 'See More <i class="fas fa-chevron-down ms-1"></i>';
+      
+      // Smoothly scroll back up to the top of the project section if they close it
+      document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+</script>
 
   <section id="certificates" class="container py-5">
     <h2 class="fs-1 fw-bold mb-4">Courses and Certificates</h2>
