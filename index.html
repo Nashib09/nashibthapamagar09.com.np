@@ -5,83 +5,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="TCYDjPGs4mjTQmvE4JIqweCYrrjbfu549UuGoTykXSg" />
-  <meta name="title" content="Nashib Thapa Magar - Portfolio | Web Developer | Software Engineer ">
+  <meta name="title" content="Nashib Thapa Magar - Portfolio | Web Developer | Software Engineer">
   <meta name="description" content="Explore the portfolio of Nashib Thapa Magar, an innovative, skilled web developer and software engineer specializing in innovative web applications, software solutions, and user-friendly designs. Let's build something great together!">
-  <title>Nashib Thapa Magar Portfolio</title>
-  
+  <title>Nashib Thapa Magar | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons & Bootstrap -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+
   <style>
-    body {
-      font-family: 'Roboto', sans-serif;
+    :root {
+      --primary-green: #10b981;
+      --primary-green-hover: #059669;
+      --dark-bg: #0b1120;
+      --card-bg: rgba(17, 25, 40, 0.65);
     }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--dark-bg);
+      color: #f8fafc;
+      scroll-behavior: smooth;
+    }
+
+    h1, h2, h3, .navbar-brand {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
     a {
       text-decoration: none;
-      color: #10b981;
+      color: var(--primary-green);
       transition: color 0.2s ease-in-out;
     }
+
     a:hover {
-      color: #b2e05b;
+      color: #34d399;
     }
-    
-    /* Unique Certificate Button styling matching your green theme */
-    .cert-btn {
-      background-color: #10b981;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      font-size: 14px;
+
+    /* Sticky Glass Navigation */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      background-color: rgba(11, 17, 32, 0.85);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .nav-link-custom {
+      color: #cbd5e1;
       font-weight: 500;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: all 0.2s ease-in-out;
-    }
-    .cert-btn:hover {
-      background-color: #059669;
-      transform: translateY(-1px);
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
     }
 
-    /* Glassmorphism Effect */
-    .glassmorphism-card {
-      backdrop-filter: blur(16px) saturate(180%);
-      -webkit-backdrop-filter: blur(16px) saturate(180%);
-      background-color: rgba(17, 25, 40, 0.4);
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.125);
-      padding: 38px;
-      filter: drop-shadow(0 20px 10px rgba(0, 0, 0, 0.3));
+    .nav-link-custom:hover {
+      color: var(--primary-green);
     }
 
-    /* Modern Premium Backdrop for Certificate Viewer */
-    .modal {
-      backdrop-filter: blur(8px);
-      background-color: rgba(0, 0, 0, 0.7);
-    }
-    .modal-content {
-      border: none;
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
-    .languages_used {
-      margin: 5px;
-      padding: 5px 10px;
-      color: #a0aec0;
-      border: 1px solid #4a5568;
-      border-radius: 5px;
-      display: inline-block;
-      font-size: 12px;
-      background-color: rgba(255, 255, 255, 0.05);
-    }
+    /* Hero Section */
     .hero-section {
       position: relative;
       overflow: hidden;
-      min-height: 50vh;
+      min-height: 75vh;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 80px 0;
     }
+
     .hero-section video {
       position: absolute;
       top: 0;
@@ -91,180 +89,374 @@
       object-fit: cover;
       z-index: 0;
     }
-    .hero-text {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      padding: 40px 20px;
-      background: rgba(21, 21, 21, 0.6);
-      width: 100%;
-      height: 100%;
-    }
+
     #myVideo {
-      filter: grayscale(40%) blur(2px) brightness(40%);
+      filter: grayscale(40%) blur(3px) brightness(35%);
     }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(11, 17, 32, 0.55) 0%, var(--dark-bg) 100%);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Curved Display Picture Frame */
+    .profile-pic-wrapper {
+      position: relative;
+      display: inline-block;
+      padding: 6px;
+      border-radius: 32px;
+      background: linear-gradient(135deg, #10b981 0%, rgba(16, 185, 129, 0.15) 50%, #059669 100%);
+      box-shadow: 0 20px 45px -10px rgba(16, 185, 129, 0.35), 0 10px 25px rgba(0, 0, 0, 0.6);
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+    }
+
+    .profile-pic-wrapper:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 25px 55px -10px rgba(16, 185, 129, 0.5), 0 15px 30px rgba(0, 0, 0, 0.75);
+    }
+
+    .profile-pic {
+      width: 240px;
+      height: 290px;
+      object-fit: cover;
+      /* Adjusts framing to center your face & blazer cleanly */
+      object-position: center 22%;
+      border-radius: 26px;
+      display: block;
+      background-color: #1e293b;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #34d399;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #10b981;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    /* Glassmorphism Cards */
+    .glassmorphism-card {
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 32px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .glassmorphism-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(16, 185, 129, 0.35);
+    }
+
+    /* Tech Tags */
+    .languages_used {
+      margin: 4px 6px 4px 0;
+      padding: 5px 12px;
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 9999px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 500;
+      background-color: rgba(255, 255, 255, 0.04);
+    }
+
+    /* Certificate Cards & Button */
+    .cert-card {
+      background-color: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 28px;
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .cert-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(16, 185, 129, 0.35);
+    }
+
+    .cert-btn {
+      background-color: var(--primary-green);
+      color: white;
+      border: none;
+      padding: 9px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .cert-btn:hover {
+      background-color: var(--primary-green-hover);
+      transform: translateY(-1px);
+    }
+
+    /* Modals */
+    .modal {
+      backdrop-filter: blur(8px);
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    .modal-content {
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    /* Social & Contact Elements */
     .social-link {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background-color: #10b981;
-      width: 40px;
-      height: 40px;
+      background-color: var(--primary-green);
+      width: 42px;
+      height: 42px;
       border-radius: 50%;
       transition: transform 0.2s ease-in-out, background-color 0.2s;
     }
+
     .social-link:hover {
       transform: scale(1.1);
-      background-color: #059669;
+      background-color: var(--primary-green-hover);
     }
+
     .contact-chip {
       display: inline-flex;
       align-items: center;
-      background-color: #10b981;
+      background-color: var(--primary-green);
       color: #fff;
-      padding: 0.5rem 1.25rem;
+      padding: 0.6rem 1.4rem;
       border-radius: 9999px;
+      font-weight: 500;
       transition: transform 0.2s ease-in-out, background-color 0.2s;
     }
+
     .contact-chip:hover {
-      transform: scale(1.05);
+      transform: scale(1.04);
       color: white;
-      background-color: #059669;
+      background-color: var(--primary-green-hover);
     }
-    
+
+    .form-control:focus {
+      background-color: rgba(15, 23, 42, 0.9);
+      border-color: var(--primary-green);
+      color: #fff;
+      box-shadow: 0 0 0 0.2rem rgba(16, 185, 129, 0.25);
+    }
+
+    .section-heading {
+      font-weight: 700;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 12px;
+    }
+
     @media (max-width: 768px) {
       .hide-in-small { display: none !important; }
+      .profile-pic {
+        width: 200px;
+        height: 245px;
+      }
     }
+
     @media (min-width: 769px) {
       .hide-in-large { display: none !important; }
     }
   </style>
 </head>
 
-<body class="bg-dark text-light">
+<body>
 
-  <header class="py-3 border-bottom border-secondary">
+  <!-- Header -->
+  <header class="py-3">
     <nav class="container d-flex align-items-center justify-content-between">
-      <span class="fs-2 fw-bold hide-in-small text-success">Nashib Thapa Magar</span>
-      <span class="fs-2 fw-bold hide-in-large text-success">NTM</span>
-      <div>
-        <a href="#projects" class="ms-3 ms-md-4">Projects</a>
-        <a href="#certificates" class="ms-3 ms-md-4">Certificates</a>
-        <a href="#contact" class="ms-3 ms-md-4">Contact</a>
+      <a href="#" class="fs-4 fw-bold hide-in-small text-success">Nashib Thapa Magar</a>
+      <a href="#" class="fs-4 fw-bold hide-in-large text-success">NTM</a>
+      <div class="d-flex align-items-center gap-3 gap-md-4">
+        <a href="#projects" class="nav-link-custom">Projects</a>
+        <a href="#certificates" class="nav-link-custom">Certificates</a>
+        <a href="#contact" class="nav-link-custom">Contact</a>
       </div>
     </nav>
   </header>
 
-  <section class="hero-section text-center">
+  <!-- Hero Section with Original Display Pic -->
+  <section class="hero-section">
     <video autoplay muted loop id="myVideo">
       <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4">
     </video>
-    <div class="hero-text">
-      <h1 class="display-3 fw-bold mb-4">Welcome To My Portfolio</h1>
-      <p class="lead mb-4 max-width-md mx-auto text-light">Enthusiastic Full Stack Developer skilled in JavaScript, Java, PHP, MySQL and modern frameworks.</p>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center justify-content-center gy-5">
+        
+        <!-- Original Display Picture Column -->
+        <div class="col-lg-5 text-center">
+          <div class="profile-pic-wrapper">
+            <img src="IMG_2449.jpg" alt="Nashib Thapa Magar" class="profile-pic">
+          </div>
+        </div>
+
+        <!-- Introduction Text Column -->
+        <div class="col-lg-7 text-center text-lg-start">
+          <div class="status-badge mb-3">
+            <span class="status-dot"></span> Full Stack Developer &amp; Software Engineer
+          </div>
+          <h1 class="display-4 fw-bold mb-3">Hi, I'm <span class="text-success">Nashib Thapa Magar</span></h1>
+          <p class="lead text-light opacity-75 mb-4">
+            Enthusiastic Full Stack Developer skilled in JavaScript, Java, PHP, MySQL, and modern frameworks—building scalable web applications and clean, user-friendly interfaces.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+            <a href="#projects" class="btn btn-success px-4 py-2 fw-medium rounded-3">
+              Explore Projects <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline-light px-4 py-2 fw-medium rounded-3">
+              Get In Touch
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects" class="container py-5">
-    <h2 class="fs-1 fw-bold mb-4 border-bottom border-secondary pb-2">Featured Projects</h2>
-    
+    <h2 class="fs-2 section-heading mb-4">Featured Projects</h2>
+
     <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-4">
       <div class="card-content text-start w-100">
-        <h3 class="text-success mb-3">Bhimbadh Multipurpose Agro Group Pvt. Ltd.</h3>
-        <p>A centralized website for Bhimbadh Multipurpose Agro Group Pvt. Ltd.</p>
-        
-        <div class="mb-3">
-          <a target="_blank" href="https://bmag.com.np/" class="btn btn-sm btn-outline-success">
-            <i class="fas fa-external-link-alt me-1"></i> Visit Website
+        <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+          <h3 class="text-success mb-1">Bhimbadh Multipurpose Agro Group Pvt. Ltd.</h3>
+          <a target="_blank" href="https://bmag.com.np/" class="btn btn-sm btn-outline-success rounded-pill px-3">
+            <i class="fas fa-external-link-alt me-1"></i> Visit Live Site
           </a>
         </div>
+        <p class="text-light opacity-75">A centralized corporate web platform developed for Bhimbadh Multipurpose Agro Group Pvt. Ltd.</p>
 
-        <p class="pb-2">
+        <div class="mb-3">
           <span class="languages_used">HTML</span>
           <span class="languages_used">JavaScript</span>
           <span class="languages_used">CSS</span>
-          <span class="languages_used">MONGODB</span>
-        </p>
-        <a target="_blank" href="https://github.com/nashib9-hub/bmag.com.np.git" class="btn btn-success px-4">View Project</a>
+          <span class="languages_used">MongoDB</span>
+        </div>
+        <a target="_blank" href="https://github.com/nashib9-hub/bmag.com.np.git" class="btn btn-success px-4 rounded-3">
+          <i class="fab fa-github me-2"></i>View Source Code
+        </a>
       </div>
     </div>
 
     <div id="more-projects" class="d-none">
-      
+
       <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-4">
         <div class="card-content text-start w-100">
-          <h3 class="text-success mb-3">Contact Management System</h3>
-          <p>A centralized website for contact management system.</p>
-          <p class="pb-2">
+          <h3 class="text-success mb-2">Contact Management System</h3>
+          <p class="text-light opacity-75">A full-stack centralized web application for organizing and managing contacts.</p>
+          <div class="mb-3">
             <span class="languages_used">MongoDB</span>
             <span class="languages_used">Express JS</span>
             <span class="languages_used">React.js</span>
             <span class="languages_used">Node.js</span>
-          </p>
-          <a target="_blank" href="https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success px-4">View Project</a>
+          </div>
+          <a target="_blank" href="https://github.com/Nashib09/MERN-STACK-Contact-Management-System.git" class="btn btn-success px-4 rounded-3">
+            <i class="fab fa-github me-2"></i>View Source Code
+          </a>
         </div>
       </div>
 
       <div class="glassmorphism-card d-flex flex-column flex-md-row align-items-center my-4">
         <div class="card-content text-start w-100">
-          <h3 class="text-success mb-3">Student Management System</h3>
-          <p>A centralized website for Student Portal.</p>
-          <p class="pb-2">
-            <span class="languages_used">Mongo DB</span>
-            <span class="languages_used">Next.JS</span>
+          <h3 class="text-success mb-2">Student Management System</h3>
+          <p class="text-light opacity-75">A modern centralized Student Portal built for academic record management.</p>
+          <div class="mb-3">
+            <span class="languages_used">MongoDB</span>
+            <span class="languages_used">Next.js</span>
             <span class="languages_used">Tailwind CSS</span>
-          </p>
-          <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success px-4">View Project</a>
+          </div>
+          <a target="_blank" href="https://github.com/Nashib09/s-management-system-.git" class="btn btn-success px-4 rounded-3">
+            <i class="fab fa-github me-2"></i>View Source Code
+          </a>
         </div>
       </div>
+
     </div>
 
     <div class="text-center mt-4">
-      <button id="see-more-btn" class="btn btn-outline-success px-5 py-2">
+      <button id="see-more-btn" class="btn btn-outline-success px-5 py-2 rounded-3">
         See More <i class="fas fa-chevron-down ms-1"></i>
       </button>
     </div>
   </section>
 
+  <!-- Certificates Section -->
   <section id="certificates" class="container py-5">
-    <h2 class="fs-1 fw-bold mb-4 border-bottom border-secondary pb-2">Courses and Certificates</h2>
+    <h2 class="fs-2 section-heading mb-4">Courses and Certificates</h2>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-      
+
       <div class="col">
-        <div class="bg-dark border border-secondary rounded p-4 h-100 d-flex flex-column justify-content-between">
+        <div class="cert-card h-100 d-flex flex-column justify-content-between">
           <div>
             <h3 class="h5 mb-2 text-success">Node.js MERN STACK</h3>
-            <p class="text-muted">Aug 2025</p>
+            <p class="text-secondary small mb-3"><i class="far fa-calendar-alt me-1"></i> Aug 2025</p>
           </div>
-          <button class="cert-btn mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#certMernModal">View Certificate</button>
+          <button class="cert-btn mt-2 align-self-start" data-bs-toggle="modal" data-bs-target="#certMernModal">
+            <i class="fas fa-award me-1"></i> View Certificate
+          </button>
         </div>
       </div>
 
       <div class="col">
-        <div class="bg-dark border border-secondary rounded p-4 h-100 d-flex flex-column justify-content-between">
+        <div class="cert-card h-100 d-flex flex-column justify-content-between">
           <div>
             <h3 class="h5 mb-2 text-success">AI Powered FullStack</h3>
-            <p class="text-muted">Jan 2026</p>
+            <p class="text-secondary small mb-3"><i class="far fa-calendar-alt me-1"></i> Jan 2026</p>
           </div>
-          <button class="cert-btn mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#certAiModal">View Certificate</button>
+          <button class="cert-btn mt-2 align-self-start" data-bs-toggle="modal" data-bs-target="#certAiModal">
+            <i class="fas fa-award me-1"></i> View Certificate
+          </button>
         </div>
       </div>
 
       <div class="col">
-        <div class="bg-dark border border-secondary rounded p-4 h-100 d-flex flex-column justify-content-between">
+        <div class="cert-card h-100 d-flex flex-column justify-content-between">
           <div>
-            <h3 class="h5 mb-2 text-success">Microsoft Office- Beginner</h3>
-            <p class="text-muted">2012</p>
+            <h3 class="h5 mb-2 text-success">Microsoft Office - Beginner</h3>
+            <p class="text-secondary small mb-3"><i class="far fa-calendar-alt me-1"></i> 2012</p>
           </div>
-          <button class="cert-btn mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#certOfficeModal">View Certificate</button>
+          <button class="cert-btn mt-2 align-self-start" data-bs-toggle="modal" data-bs-target="#certOfficeModal">
+            <i class="fas fa-award me-1"></i> View Certificate
+          </button>
         </div>
       </div>
 
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="container py-5">
-    <h2 class="fs-1 fw-bold mb-4 border-bottom border-secondary pb-2">Contact Me</h2>
+    <h2 class="fs-2 section-heading mb-4">Contact Me</h2>
     <div class="d-flex flex-wrap gap-3 mb-5">
       <a href="tel:+9779842266372" class="contact-chip">
         <i class="fas fa-phone-alt me-2"></i> Call Me
@@ -272,35 +464,39 @@
     </div>
 
     <div class="row">
-      <div class="col-md-6">
-        <h3 class="fs-4 mb-3 text-success">Feedback</h3>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" id="name" class="form-control bg-dark text-light border-secondary" required>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea id="message" class="form-control bg-dark text-light border-secondary" rows="4" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-success px-4">Send Message</button>
-        </form>
+      <div class="col-md-7 col-lg-6">
+        <div class="glassmorphism-card">
+          <h3 class="fs-4 mb-3 text-success">Send Feedback</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label text-light">Name</label>
+              <input type="text" id="name" class="form-control bg-dark text-light border-secondary" placeholder="Your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label text-light">Message</label>
+              <textarea id="message" class="form-control bg-dark text-light border-secondary" rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success px-4 py-2 rounded-3">Send Message</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
 
-  <footer class="bg-black py-4 border-top border-secondary">
+  <!-- Footer -->
+  <footer class="bg-black py-4 border-top border-secondary border-opacity-25 mt-5">
     <div class="d-flex justify-content-center gap-3">
-      <a href="https://github.com/Nashib09" target="_blank" rel="noopener noreferrer" class="social-link">
+      <a href="https://github.com/Nashib09" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
         <i class="fab fa-github text-white fs-5"></i>
       </a>
-      <a href="https://www.linkedin.com/in/nashib-thapa-magar-78b830375/" target="_blank" rel="noopener noreferrer" class="social-link">
+      <a href="https://www.linkedin.com/in/nashib-thapa-magar-78b830375/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
         <i class="fab fa-linkedin-in text-white fs-5"></i>
       </a>
     </div>
-    <p class="text-center text-muted small mt-3 mb-0">&copy; 2026 Nashib Thapa Magar. All Rights Reserved.</p>
+    <p class="text-center text-secondary small mt-3 mb-0">&copy; 2026 Nashib Thapa Magar. All Rights Reserved.</p>
   </footer>
 
+  <!-- Certificate Modals -->
   <div class="modal fade" id="certMernModal" tabindex="-1" aria-labelledby="certMernModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content bg-dark border border-secondary">
@@ -346,19 +542,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
   <script>
-    document.getElementById('see-more-btn').addEventListener('click', function() {
+    document.getElementById('see-more-btn').addEventListener('click', function () {
       const moreProjects = document.getElementById('more-projects');
-      
+
       if (moreProjects.classList.contains('d-none')) {
-        // Show remaining projects
         moreProjects.classList.remove('d-none');
         this.innerHTML = 'See Less <i class="fas fa-chevron-up ms-1"></i>';
       } else {
-        // Hide remaining projects
         moreProjects.classList.add('d-none');
         this.innerHTML = 'See More <i class="fas fa-chevron-down ms-1"></i>';
-        
-        // Return window focus back to top of projects area
         document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
       }
     });
